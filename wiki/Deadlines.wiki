@@ -3,11 +3,16 @@
 = Prossime deadlines =
 
 Le scadenze da risolvere per il tutoring di *mercoledì 14/06/11* sono:
-  * creare lo schema CSS+HTML per le pagine `[`assegnato a *E*`]`
-  * creare un progetto su [http://code.google.com/appengine/ Google AppEngine], rispettando le regole sul nome
-  * provare ad usare i meccanismi di Google App Engine `[`assegnato a *R*`]`
+  * Creare lo schema CSS+HTML per le pagine. `[`assegnato a *E*`]`
+  * Creare un progetto su [http://code.google.com/appengine/ Google AppEngine], rispettando le regole sul nome.
+  * Provare ad usare i meccanismi di Google App Engine. `[`assegnato a *R*`]`
+  * Aggiungere le "esigenze speciali" per i prodotti nel P-IDM, e selezionare la parte utile dello stesso:
+    * Multiple Topics: Produttore e Prodotto;
+    * Single Topic: Info consorzio;
+    * Introductory Acts: Tutte le offerte, Tutte le esigenze speciali, Prodotti per esigenza speciale
+    * Transaction Act: Produce.`[`assegnato a *R*`]`
 
 = Deadlines già risolte =
 
 Le scadenze già risolte sono:
-  * creare un progetto su Google Code `[`risolto da *R*`]`
+  * Creare un progetto su Google Code. `[`risolto da *R*`]`
