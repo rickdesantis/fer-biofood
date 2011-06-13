@@ -3,7 +3,7 @@
 = Tabelle da implementare & gestire =
 
 Per i dati da gestire, mi sembrano utili queste "tabelle" (che in realtà sono dei modelli per Slim3, però il concetto è lo stesso):
-  * *Produttore*: _id_, nome, descrizione, email, indirizzo, idTipoProduttore
+  * *Produttore*: _id_, nome, descrizione, email, indirizzo, idTipoProduttore, password
   * *Prodotto*: _id_, nome, descrizione, infoNutrizionali, idOfferta, idProduttore, idTipoProdotto
   * *TipoProduttore*: _id_, nome
   * *TipoProdotto*: _id_, nome
