@@ -1,0 +1,14 @@
+#summary Descrizione delle tabelle per rappresentare i dati del sito.
+
+= Tabelle da implementare & gestire =
+
+Per i dati da gestire, mi sembrano utili queste "tabelle" (che in realtà sono dei modelli per Slim3, però il concetto è lo stesso):
+  * *Produttore*: id, nome, descrizione, email, indirizzo, idTipoProduttore
+  * *Prodotto*: id, nome, descrizione, infoNutrizionali, idOfferta, idProduttore, idTipoProdotto
+  * *TipoProduttore*: id, nome
+  * *TipoProdotto*: id, nome
+  * *Esigenza*: id nome
+  * *Offerta*: id, idProdotto, fineOfferta
+  * *FotoProdotto*: id, idProdotto, contenuto
+  * *FotoProduttore*: id, idProduttore, contenuto
+  * *BuonoPerEsigenza*: id, idEsigenza, idProdotto
