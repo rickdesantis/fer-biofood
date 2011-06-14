@@ -9,7 +9,7 @@ import org.slim3.datastore.Model;
 import org.slim3.datastore.ModelRef;
 
 @Model(schemaVersion = 1)
-public class Produttore implements Serializable {
+public class FotoProdotto implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -19,60 +19,20 @@ public class Produttore implements Serializable {
     @Attribute(version = true)
     private Long version;
     
-    private String nome;
+    private ModelRef<Prodotto> prodottoRef = new ModelRef<Prodotto>(Prodotto.class);
     
-    private String descr;
+    private String contenuto;
     
-    private String mail;
-    
-    private String indirizzo;
-    
-    private String password;
-    
-    private ModelRef<TipoProduttore> tipoProduttoreRef = new ModelRef<TipoProduttore>(TipoProduttore.class);
-    
-    public String getNome() {
-        return nome;
+    public ModelRef<Prodotto> getProdottoRef() {
+        return prodottoRef;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public String getContenuto() {
+        return contenuto;
     }
 
-    public String getDescr() {
-        return descr;
-    }
-
-    public void setDescr(String descr) {
-        this.descr = descr;
-    }
-
-    public String getMail() {
-        return mail;
-    }
-
-    public void setMail(String mail) {
-        this.mail = mail;
-    }
-
-    public String getIndirizzo() {
-        return indirizzo;
-    }
-
-    public void setIndirizzo(String indirizzo) {
-        this.indirizzo = indirizzo;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public ModelRef<TipoProduttore> getTipoProduttoreRef() {
-        return tipoProduttoreRef;
+    public void setContenuto(String contenuto) {
+        this.contenuto = contenuto;
     }
 
     /**
@@ -132,7 +92,7 @@ public class Produttore implements Serializable {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        Produttore other = (Produttore) obj;
+        FotoProdotto other = (FotoProdotto) obj;
         if (key == null) {
             if (other.key != null) {
                 return false;

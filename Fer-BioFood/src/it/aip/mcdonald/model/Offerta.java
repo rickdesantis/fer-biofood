@@ -1,6 +1,7 @@
 package it.aip.mcdonald.model;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import com.google.appengine.api.datastore.Key;
 
@@ -9,7 +10,7 @@ import org.slim3.datastore.Model;
 import org.slim3.datastore.ModelRef;
 
 @Model(schemaVersion = 1)
-public class Produttore implements Serializable {
+public class Offerta implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -19,60 +20,20 @@ public class Produttore implements Serializable {
     @Attribute(version = true)
     private Long version;
     
-    private String nome;
+    private ModelRef<Prodotto> prodottoRef = new ModelRef<Prodotto>(Prodotto.class);
     
-    private String descr;
-    
-    private String mail;
-    
-    private String indirizzo;
-    
-    private String password;
-    
-    private ModelRef<TipoProduttore> tipoProduttoreRef = new ModelRef<TipoProduttore>(TipoProduttore.class);
-    
-    public String getNome() {
-        return nome;
+    private Date fineOfferta;
+
+    public ModelRef<Prodotto> getProdottoRef() {
+        return prodottoRef;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public Date getFineOfferta() {
+        return fineOfferta;
     }
 
-    public String getDescr() {
-        return descr;
-    }
-
-    public void setDescr(String descr) {
-        this.descr = descr;
-    }
-
-    public String getMail() {
-        return mail;
-    }
-
-    public void setMail(String mail) {
-        this.mail = mail;
-    }
-
-    public String getIndirizzo() {
-        return indirizzo;
-    }
-
-    public void setIndirizzo(String indirizzo) {
-        this.indirizzo = indirizzo;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public ModelRef<TipoProduttore> getTipoProduttoreRef() {
-        return tipoProduttoreRef;
+    public void setFineOfferta(Date fineOfferta) {
+        this.fineOfferta = fineOfferta;
     }
 
     /**
@@ -132,7 +93,7 @@ public class Produttore implements Serializable {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        Produttore other = (Produttore) obj;
+        Offerta other = (Offerta) obj;
         if (key == null) {
             if (other.key != null) {
                 return false;

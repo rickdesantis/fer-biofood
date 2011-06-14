@@ -9,7 +9,7 @@ import org.slim3.datastore.Model;
 import org.slim3.datastore.ModelRef;
 
 @Model(schemaVersion = 1)
-public class Produttore implements Serializable {
+public class Prodotto implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -21,16 +21,16 @@ public class Produttore implements Serializable {
     
     private String nome;
     
-    private String descr;
+    private String descrizione;
     
-    private String mail;
+    private String infoNutrizionali;
     
-    private String indirizzo;
+    private ModelRef<Offerta> offertaRef = new ModelRef<Offerta>(Offerta.class);
+
+    private ModelRef<Produttore> produttoreRef = new ModelRef<Produttore>(Produttore.class);
     
-    private String password;
-    
-    private ModelRef<TipoProduttore> tipoProduttoreRef = new ModelRef<TipoProduttore>(TipoProduttore.class);
-    
+    private ModelRef<TipoProdotto> tipoProdottoRef = new ModelRef<TipoProdotto>(TipoProdotto.class);
+
     public String getNome() {
         return nome;
     }
@@ -39,40 +39,32 @@ public class Produttore implements Serializable {
         this.nome = nome;
     }
 
-    public String getDescr() {
-        return descr;
+    public String getDescrizione() {
+        return descrizione;
     }
 
-    public void setDescr(String descr) {
-        this.descr = descr;
+    public void setDescrizione(String descrizione) {
+        this.descrizione = descrizione;
     }
 
-    public String getMail() {
-        return mail;
+    public String getInfoNutrizionali() {
+        return infoNutrizionali;
     }
 
-    public void setMail(String mail) {
-        this.mail = mail;
+    public void setInfoNutrizionali(String infoNutrizionali) {
+        this.infoNutrizionali = infoNutrizionali;
     }
 
-    public String getIndirizzo() {
-        return indirizzo;
+    public ModelRef<Offerta> getOffertaRef() {
+        return offertaRef;
     }
 
-    public void setIndirizzo(String indirizzo) {
-        this.indirizzo = indirizzo;
+    public ModelRef<Produttore> getProduttoreRef() {
+        return produttoreRef;
     }
 
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public ModelRef<TipoProduttore> getTipoProduttoreRef() {
-        return tipoProduttoreRef;
+    public ModelRef<TipoProdotto> getTipoProdottoRef() {
+        return tipoProdottoRef;
     }
 
     /**
@@ -132,7 +124,7 @@ public class Produttore implements Serializable {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        Produttore other = (Produttore) obj;
+        Prodotto other = (Prodotto) obj;
         if (key == null) {
             if (other.key != null) {
                 return false;
