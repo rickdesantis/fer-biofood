@@ -21,11 +21,9 @@ public class Prodotto implements Serializable {
     
     private String nome;
     
-    private String descrizione;
+    private String descr;
     
     private String infoNutrizionali;
-    
-    private ModelRef<Offerta> offertaRef = new ModelRef<Offerta>(Offerta.class);
 
     private ModelRef<Produttore> produttoreRef = new ModelRef<Produttore>(Produttore.class);
     
@@ -39,12 +37,12 @@ public class Prodotto implements Serializable {
         this.nome = nome;
     }
 
-    public String getDescrizione() {
-        return descrizione;
+    public String getDescr() {
+        return descr;
     }
 
-    public void setDescrizione(String descrizione) {
-        this.descrizione = descrizione;
+    public void setDescr(String descrizione) {
+        this.descr = descrizione;
     }
 
     public String getInfoNutrizionali() {
@@ -53,10 +51,6 @@ public class Prodotto implements Serializable {
 
     public void setInfoNutrizionali(String infoNutrizionali) {
         this.infoNutrizionali = infoNutrizionali;
-    }
-
-    public ModelRef<Offerta> getOffertaRef() {
-        return offertaRef;
     }
 
     public ModelRef<Produttore> getProduttoreRef() {
