@@ -12,3 +12,25 @@ Per i dati da gestire, mi sembrano utili queste "tabelle" (che in realtà sono d
   * *FotoProdotto*: _id_, idProdotto, contenuto
   * *FotoProduttore*: _id_, idProduttore, contenuto
   * *BuonoPerEsigenza*: _id_, idEsigenza, idProdotto
+
+= Dati sintetici iniziali =
+  * TipoProduttore:
+    * allevatore
+    * agricoltore
+    * ...
+  * TipoProdotto:
+    * carne
+    * pesce
+    * verdura
+    * ...
+  * Esigenza:
+    * vegani
+    * vegetariani
+    * celiaci
+    * ...
+  * Produttore:
+    * ...
+  * Prodotto:
+    * ...
+  * BuonoPerEsigenza:
+    * ...
