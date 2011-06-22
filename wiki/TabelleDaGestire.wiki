@@ -19,20 +19,20 @@ Per i dati da gestire, mi sembrano utili queste "tabelle" (che in realtà sono d
     * agricoltore
     * ...
   * TipoProdotto:
-    * Ortaggi
-    * Cereali e prima colazione
-    * Cereali e legumi
-    * Carne
-    * Pesce
-    * Latticini
-    * Detersivi
-    * Bevande
-    * Farine
-    * Condimenti
-    * Sughi, pesto e passate
-    * Marmellate e composte
-    * Pasta e riso
-    * Snack
+    * ortaggi
+    * cereali e prima colazione
+    * cereali e legumi
+    * carne
+    * pesce
+    * latticini
+    * detersivi
+    * bevande
+    * farine
+    * condimenti
+    * sughi, pesto e passate
+    * marmellate e composte
+    * pasta e riso
+    * snack
   * Esigenza:
     * vegani
     * vegetariani
