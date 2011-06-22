@@ -19,15 +19,26 @@ Per i dati da gestire, mi sembrano utili queste "tabelle" (che in realtà sono d
     * agricoltore
     * ...
   * TipoProdotto:
-    * carne
-    * pesce
-    * verdura
-    * ...
+    * Ortaggi
+    * Cereali e prima colazione
+    * Cereali e legumi
+    * Carne
+    * Pesce
+    * Latticini
+    * Detersivi
+    * Bevande
+    * Farine
+    * Condimenti
+    * Sughi, pesto e passate
+    * Marmellate e composte
+    * Pasta e riso
+    * Snack
   * Esigenza:
     * vegani
     * vegetariani
     * celiaci
-    * ...
+    * bisognosi di ferro
+    * donne in gravidanza
   * Produttore:
     * ...
   * Prodotto:
