@@ -60,7 +60,10 @@ public class ManageWorld {
         }
         
         // Aggiungo le nuove entità appena create, prendendo i nomi hardcoded
-        String[] nomi = {"carne", "verdura", "pesce", "legume"};
+        String[] nomi = {"ortaggi", "cereali e prima colazione", "cereali e legumi", "carne",
+                         "pesce", "latticini", "detersivi", "bevande", "farine", "condimenti",
+                         "sughi, pesto e passate", "marmellate e composte", "pasta e riso",
+                         "snack"};
         for (String s : nomi) {
             TipoProdotto tprod = new TipoProdotto();
             tprod.setNome(s);
@@ -89,7 +92,7 @@ public class ManageWorld {
         }
         
         // Aggiungo le nuove entità appena create, prendendo i nomi hardcoded
-        String[] nomi = {"celiaci", "vegani", "vegetariani", "esigenza1"};
+        String[] nomi = {"celiaci", "vegani", "vegetariani", "bisognosi di ferro", "donne in gravidanza"};
         for (String s : nomi) {
             Esigenza es = new Esigenza();
             es.setNome(s);
