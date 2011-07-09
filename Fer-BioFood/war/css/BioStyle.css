@@ -29,6 +29,8 @@ a {
 	a:hover {
 		color:#F90;
 	}
+	
+
 
 
 
@@ -74,7 +76,12 @@ a {
 
 
 
+	#sidebar ul {
+		list-style-type:none;
+		padding:0;
+		margin:0;
 
+	}
 
 	#sidebar .padding {
 		padding: 25px;
@@ -89,6 +96,8 @@ a {
 	margin-left:190px;
 	background:#FFF;
 	line-height: 18px;
+
+	
 }
 
 #sidebar {
@@ -97,10 +106,12 @@ a {
 	height:600px;
 	background:#CF9;
 	line-height: 18px;
+	
 }
 
 	#content .padding {
 		padding: 25px;
+		display:block;
 	}
 
 	#content h2 {
@@ -126,4 +137,9 @@ a {
 	padding: 13px 25px;
 	border-top: 1px solid black;
 	
+}
+
+ul#structLink {
+	padding-bottom:20px;
+		
 }

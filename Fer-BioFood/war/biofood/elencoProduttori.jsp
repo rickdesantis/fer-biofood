@@ -33,7 +33,7 @@
   <div id="header"><h1></h1></div>
   <div  id="landmarks">
 	<ul >
-        	<li ><a href="#">Produttori</a></li>
+        	<li ><a href="elencoProduttori.jsp">Produttori</a></li>
             <li ><a href="#">Info Alimenti</a></li>
             <li ><a href="#">Ricette</a></li>
             <li><a href="#">Diete</a></li>
@@ -59,7 +59,7 @@
 %>
 </ul></div>
   </div>
-  <div id="footer">Content for  id "footer" Goes Here</div>
+  <div id="footer"></div>
 </div>
 
 </body>
