@@ -47,7 +47,7 @@
    	  <div class="padding"></div>
     </div>
   <div id="content">
-  <img id= "toprightimage" src='../WEB-INF/SpryAssets/images/cc-carne.gif' width="256" height="200" alt="carnazza" />
+  <img id= "toprightimage" src="images/cc-carne.gif" width="256" height="200" alt="carnazza" />
 <div class="padding"><h2>Elenco Produttori</h2>
 	    <ul>
 <%
