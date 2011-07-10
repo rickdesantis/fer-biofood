@@ -27,11 +27,11 @@
   <div id="header"><h1></h1></div>
   <div  id="landmarks">
 	<ul >
-        	<li ><a href="elencoProduttori.jsp">Produttori</a></li>
-            <li ><a href="#">Info Alimenti</a></li>
+        	<li ><a href="produttori">Produttori</a></li>
+            <li ><a href="tipiProdotto">Prodotti</a></li>
             <li ><a href="#">Ricette</a></li>
-            <li><a href="#">Diete</a></li>
-            <li ><a href="#">Offerte</a></li>
+            <li><a href="esigenze">Esigenze Particolari</a></li>
+            <li ><a href="offerte">Offerte</a></li>
             <li ><a href="#">Come Acquistare</a></li>
             <li ><a href="#">Il Consorzio</a></li>
             <li><a href="#">Cibo Bio</a></li> 
