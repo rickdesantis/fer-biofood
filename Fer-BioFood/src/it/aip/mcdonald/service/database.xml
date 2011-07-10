@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+	<tipiProduttori>
+		<tipoProduttore>allevatore</tipoProduttore>
+		<tipoProduttore>agricoltore tipo1</tipoProduttore>
+		<tipoProduttore>allevatore tipo2</tipoProduttore>
+	</tipiProduttori>
+	<tipiProdotti>
+		<tipoProdotto>ortaggi</tipoProdotto>
+		<tipoProdotto>cereali e prima colazione</tipoProdotto>
+		<tipoProdotto>cereali e legumi</tipoProdotto>
+		<tipoProdotto>carne</tipoProdotto>
+		<tipoProdotto>pesce</tipoProdotto>
+		<tipoProdotto>latticini</tipoProdotto>
+		<tipoProdotto>detersivi</tipoProdotto>
+		<tipoProdotto>bevande</tipoProdotto>
+		<tipoProdotto>farine</tipoProdotto>
+    	<tipoProdotto>condimenti</tipoProdotto>
+    	<tipoProdotto>sughi, pesto e passate</tipoProdotto>
+    	<tipoProdotto>marmellate e composte</tipoProdotto>
+    	<tipoProdotto>pasta e riso</tipoProdotto>
+    	<tipoProdotto>snack</tipoProdotto>
+    </tipiProdotti>
+    <esigenze>
+    	<esigenza>celiaci</esigenza>
+    	<esigenza>vegani</esigenza>
+    	<esigenza>vegetariani</esigenza>
+    	<esigenza>bisognosi di ferro</esigenza>
+    	<esigenza>donne in gravidanza</esigenza>
+    </esigenze>
+    <produttori>
+    	<produttore>
+    		<nome>Desantis</nome>
+    		<tipo>allevatore</tipo>
+    		<descrizione>È un allevatore di mucche, galline, etc.</descrizione>
+    		<indirizzo>via delle Leghe 16, Milano (MI)</indirizzo>
+    		<email>effetti@gmail.com</email>
+    		<password>1234</password>
+    	</produttore>
+		<produttore>
+        	<nome>Gerola</nome>
+        	<tipo>agricoltore tipo1</tipo>
+			<descrizione>È l'agricoltore più in del momento, con le sue coltivazioni di marijuana, etc.</descrizione>
+        	<indirizzo>piazza Duomo, Milano (MI)</indirizzo>
+        	<email>filippo.gerola@gmail.com</email>
+        	<password>1234</password>
+        </produttore>
+        <produttore>
+        	<nome>Pedrotti</nome>
+            <tipo>allevatore</tipo>
+            <descrizione>Alleva da tanti anni le stesse galline, ma, si sa, gallina vecchia fa buon brodo!</descrizione>
+            <indirizzo>piazza Leonardo da Vinci 32, Milano (MI)</indirizzo>
+            <email>edobounce@gmail.com</email>
+            <password>1234</password>
+        </produttore>
+    </produttori>
+    <prodotti>
+    	<prodotto>
+    		<nome>Fiorentina di manzo</nome>
+        	<produttore>Desantis</produttore>
+        	<tipo>carne</tipo>
+        	<descrizione>La classica carne toscana!</descrizione>
+        	<infoNutrizionali>Fa ingrassare ai livelli!</infoNutrizionali>
+        </prodotto>
+        <prodotto>
+        	<nome>Uova di gallina</nome>
+            <produttore>Desantis</produttore>
+            <tipo>carne</tipo>
+            <descrizione>Le uova biologiche più fresche e buone!</descrizione>
+            <infoNutrizionali>Valori medi per 100 grammi senza guscio:\nValore energetico: Kcal 128 (KJ 535)\nProteine: g 12,4\nCarboidrati: g 0,5\nGrassi: g 8,7</infoNutrizionali>
+            <esigenze>
+            	<esigenza>vegetariani</esigenza>
+            </esigenze>
+        </prodotto>
+    </prodotti>
+    <offerte>
+    	<offerta>
+    		<prodotto>Uova di gallina</prodotto>
+    		<giorni>15</giorni>
+    	</offerta>
+    </offerte>
+</database>
