@@ -7,7 +7,8 @@
 <%@page import="it.aip.mcdonald.model.Offerta" %>
 <%@page import="it.aip.mcdonald.meta.ProdottoMeta" %>
 <%@page import="it.aip.mcdonald.model.Prodotto" %>
-<%@page import="java.util.List" %>	
+<%@page import="java.util.List" %>
+<%@page import="java.util.Date" %>
 
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -59,12 +60,23 @@
 	  <h2>Offerte</h2>
 		<ul id="offertList" >
         	<%
-				OffertaMeta e = OffertaMeta.get();
-				List<Offerta> list = Datastore.query(e).asList();
-				for ( Offerta u: list) {
-					Prodotto p = u.getProdottoRef().getModel();
-					out.println( "<li><a href=\"#\">"  +  p.getNome() + "</a></li>");
+				// OffertaMeta e = OffertaMeta.get();
+				// List<Offerta> list = Datastore.query(e).asList();
+				// for ( Offerta u: list) {
+				// Prodotto p = u.getProdottoRef().getModel();
+				//	out.println( "<li><a href=\"#\">"  +  p.getNome() + "</a></li>");
+				//}
+				
+				List<String> pr = (List<String>) request.getAttribute("prodotti");
+				List<Date> scadenze = (List<Date>) request.getAttribute("scadenze");
+				
+				for (int i = 0; i < pr.size(); ++i) {
+					out.println("<li><a href=\"#\">" + pr.get(i) + " (fino al " + scadenze.get(i) + ")</a></li>");
 				}
+				
+				/*for (Prodotto p : prodotti) {
+					out.println("<li><a href=\"#\">"  +  p.getNome() + "</a></li>");
+				}*/
 			%>
     	</ul>
 </div>
