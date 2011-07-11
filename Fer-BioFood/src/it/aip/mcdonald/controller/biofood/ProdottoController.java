@@ -17,13 +17,16 @@ public class ProdottoController extends Controller {
     @Override
     public Navigation run() throws Exception {
         ProdottoMeta e = ProdottoMeta.get();
-        Prodotto tmp = Datastore.query(e).filter(e.nome.equal((String)request.getAttribute("n"))).asSingle();
+        String nome = (String)request.getAttribute("n");
+        if (nome.indexOf("+") > -1)
+            nome = nome.replaceAll("+", " ");
+        Prodotto tmp = Datastore.query(e).filter(e.nome.equal(nome)).asSingle();
         
         BuonoPerEsigenzaMeta bpe = BuonoPerEsigenzaMeta.get();
         List<BuonoPerEsigenza> tmp2 = Datastore.query(bpe).asList();
         List<String> esigenze = new ArrayList<String>();
         for (BuonoPerEsigenza b : tmp2) {
-            if (b.getProdottoRef().getModel().getNome().equals((String)request.getAttribute("n")))
+            if (b.getProdottoRef().getModel().getNome().equals(nome))
                 esigenze.add(b.getEsigenzaRef().getModel().getNome());
         }
         

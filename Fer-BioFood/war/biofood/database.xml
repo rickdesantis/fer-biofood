@@ -128,8 +128,8 @@
 			<nome>Riso baldo superfino</nome>
 			<produttore>Desantis</produttore>
 			<tipo>pasta e riso</tipo>
-			<descr>L’agricoltura biologica è un metodo di coltivazione che
-				preserva l’equilibrio dell’ambiente impiegando fertilizzanti
+			<descr>L'agricoltura biologica è un metodo di coltivazione che
+				preserva l'equilibrio dell'ambiente impiegando fertilizzanti
 				naturali, utilizzando la rotazione delle colture ed escludendo
 				l'utilizzo di sostanze di sintesi chimica.
 				Consigli utili: non lavate
@@ -137,7 +137,7 @@
 				dispersione di sostanze
 				utili e cucinatelo a pentola scoperta. Una
 				volta cotto, non
-				lasciatelo nell’acqua perché la cottura continua
+				lasciatelo nell'acqua perché la cottura continua
 				anche a fuoco
 				spento.
       		</descr>
@@ -161,8 +161,8 @@
 			<nome>Riso baldo superfino integrale</nome>
 			<produttore>Desantis</produttore>
 			<tipo>pasta e riso</tipo>
-			<descr>L’agricoltura biologica è un metodo di coltivazione che
-				preserva l’equilibrio dell’ambiente impiegando fertilizzanti
+			<descr>L'agricoltura biologica è un metodo di coltivazione che
+				preserva l'equilibrio dell'ambiente impiegando fertilizzanti
 				naturali, utilizzando la rotazione delle colture ed escludendo
 				l'utilizzo di sostanze di sintesi chimica.
 				Consigli utili: non lavate
@@ -170,7 +170,7 @@
 				dispersione di sostanze
 				utili e cucinatelo a pentola scoperta. Una
 				volta cotto, non
-				lasciatelo nell’acqua perché la cottura continua
+				lasciatelo nell'acqua perché la cottura continua
 				anche a fuoco
 				spento.
       		</descr>
@@ -293,8 +293,8 @@
 			<nome>Penne</nome>
 			<produttore>Pedrotti</produttore>
 			<tipo>pasta e riso</tipo>
-			<descr>L’accurata selezione nella scelta del grano biologico, l’acqua
-				che sgorga dal cuore delle Alpi Dolomitiche, l’aria pura di montagna
+			<descr>L'accurata selezione nella scelta del grano biologico, l'acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l'aria pura di montagna
 				utilizzata nel processo di essiccazione conferiscono alla pasta un
 				gusto inconfondibile ed una grande tenuta di cottura
 				INGREDIENTI:
@@ -321,8 +321,8 @@
 			<nome>Penne integrali</nome>
 			<produttore>Pedrotti</produttore>
 			<tipo>pasta e riso</tipo>
-			<descr>L’accurata selezione nella scelta del grano biologico, l’acqua
-				che sgorga dal cuore delle Alpi Dolomitiche, l’aria pura di montagna
+			<descr>L'accurata selezione nella scelta del grano biologico, l'acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l'aria pura di montagna
 				utilizzata nel processo di essiccazione conferiscono alla pasta un
 				gusto inconfondibile ed una grande tenuta di cottura
 				INGREDIENTI:
@@ -618,18 +618,6 @@
 				<esigenza>celiaci</esigenza>
 			</esigenze>
 		</prodotto>
-		<prodotto>
-			<nome></nome>
-			<produttore></produttore>
-			<tipo>bevande</tipo>
-			<descr></descr>
-			<infoNutrizionali></infoNutrizionali>
-			<esigenze>
-				<esigenza>vegetariani</esigenza>
-				<esigenza>celiaci</esigenza>
-			</esigenze>
-		</prodotto>
-
 		<prodotto>
 			<nome>Bevanda di arancia, carota e limone</nome>
 			<produttore></produttore>
