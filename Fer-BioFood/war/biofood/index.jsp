@@ -31,7 +31,10 @@
     </div>
   <div id="content">
   <img id= "toprightimage" src="images/cc-carne.gif" width="256" height="200" alt="carnazza" />
-
+	<div class="padding">
+    	<h2>Benvenuti in Biofood</h2>
+        <p>Benvenuti in Biofood. Questo e'il posto giusto per tutti coloro che vogliono mangiare sano. Prodotti biologici, freschi e gustosi per soddisfare le esigenze di tutti. Nel nostro consorzio troverete soltanto prodotti garantiti. I migliori machi biologici, direttamente a casa vostra.</p>
+    </div>
   </div>
   <div id="footer"></div>
 </div>
