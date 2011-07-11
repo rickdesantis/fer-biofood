@@ -85,6 +85,16 @@ public class ManageWorld {
                 tx.commit();
             }
         }
+
+        {
+            FotoProdottoMeta e = FotoProdottoMeta.get();
+            List<FotoProdotto> list = Datastore.query(e).asList();
+            for (FotoProdotto u : list) {
+                Transaction tx = Datastore.beginTransaction();
+                Datastore.delete(u.getKey());
+                tx.commit();
+            }
+        }
         
     }
     public TipoProduttore aggiungiTipoProduttore(Map<String, Object> param) {
@@ -172,6 +182,19 @@ public class ManageWorld {
         tx.commit();
         return of;
     }
+    public FotoProdotto aggiungiFoto(Map<String, Object> param) {
+        FotoProdotto fot = new FotoProdotto();
+        {
+            ProdottoMeta e = ProdottoMeta.get();
+            Prodotto tmp = Datastore.query(e).filter(e.nome.equal((String)param.get("prodotto"))).asSingle();
+            fot.getProdottoRef().setModel(tmp);
+        }
+        fot.setContenuto((String)param.get("contenuto"));
+        Transaction tx = Datastore.beginTransaction();
+        Datastore.put(fot);
+        tx.commit();
+        return fot;
+    }
     
     public void initAllFromXml() throws ParserConfigurationException, SAXException, IOException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -207,6 +230,11 @@ public class ManageWorld {
             List<Map<String, Object>> maps = retrieveTagByName(doc, "offerta", "offerte");
             for (Map<String, Object> m : maps)
                 aggiungiOfferta(m);
+        }
+        {
+            List<Map<String, Object>> maps = retrieveTagByName(doc, "foto", "fotoProdotti");
+            for (Map<String, Object> m : maps)
+                aggiungiFoto(m);
         }
     }
     

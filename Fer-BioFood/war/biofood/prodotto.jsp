@@ -41,8 +41,10 @@
       </div>
   </div>
   <div id="content">
-  
-  <img id= "toprightimage" src="images/cc-carne.gif" width="256" height="200" alt="carnazza" />
+  <%
+  	if (request.getAttribute("foto") != null) { %>
+  <img id= "toprightimage" src="${foto}" alt="${prodotto.nome}" />
+  <% } %>
 	<div class="padding"><h2>${prodotto.nome}</h2>
 	<p>${f:h(prodotto.descr)}</p>
 	<h4>Informazioni nutrizionali</h4>
