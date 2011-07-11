@@ -2,129 +2,761 @@
 <database>
 	<tipiProduttori>
 		<tipoProduttore>
-      		<nome>allevatore</nome>
-    	</tipoProduttore>
+			<nome>allevatore</nome>
+		</tipoProduttore>
 		<tipoProduttore>
-      		<nome>agricoltore tipo1</nome>
-    	</tipoProduttore>
+			<nome>agricoltore tipo1</nome>
+		</tipoProduttore>
 		<tipoProduttore>
-      		<nome>allevatore tipo2</nome>
-    	</tipoProduttore>
+			<nome>allevatore tipo2</nome>
+		</tipoProduttore>
 	</tipiProduttori>
 	<tipiProdotti>
 		<tipoProdotto>
-      		<nome>ortaggi</nome>
-    	</tipoProdotto>
+			<nome>ortaggi</nome>
+		</tipoProdotto>
 		<tipoProdotto>
-      		<nome>cereali e prima colazione</nome>
-    	</tipoProdotto>
+			<nome>cereali e prima colazione</nome>
+		</tipoProdotto>
 		<tipoProdotto>
-      		<nome>cereali e legumi</nome>
-    	</tipoProdotto>
+			<nome>cereali e legumi</nome>
+		</tipoProdotto>
 		<tipoProdotto>
-      		<nome>carne</nome>
-    	</tipoProdotto>
+			<nome>carne</nome>
+		</tipoProdotto>
 		<tipoProdotto>
-      		<nome>pesce</nome>
-    	</tipoProdotto>
+			<nome>pesce</nome>
+		</tipoProdotto>
 		<tipoProdotto>
-      		<nome>latticini</nome>
-    	</tipoProdotto>
+			<nome>latticini</nome>
+		</tipoProdotto>
 		<tipoProdotto>
-      		<nome>detersivi</nome>
-    	</tipoProdotto>
+			<nome>detersivi</nome>
+		</tipoProdotto>
 		<tipoProdotto>
-      		<nome>bevande</nome>
-    	</tipoProdotto>
+			<nome>bevande</nome>
+		</tipoProdotto>
 		<tipoProdotto>
-      		<nome>farine</nome>
-    	</tipoProdotto>
-    	<tipoProdotto>
-      		<nome>condimenti</nome>
-    	</tipoProdotto>
-    	<tipoProdotto>
-      		<nome>sughi, pesto e passate</nome>
-    	</tipoProdotto>
-    	<tipoProdotto>
-      		<nome>marmellate e composte</nome>
-    	</tipoProdotto>
-    	<tipoProdotto>
-      		<nome>pasta e riso</nome>
-    	</tipoProdotto>
-    	<tipoProdotto>
-      		<nome>snack</nome>
-    	</tipoProdotto>
-  	</tipiProdotti>
-  	<listaEsigenze>
-    	<esigenza>
-      		<nome>celiaci</nome>
-    	</esigenza>
-    	<esigenza>
-      		<nome>vegani</nome>
-    	</esigenza>
-    	<esigenza>
-      		<nome>vegetariani</nome>
-    	</esigenza>
-    	<esigenza>
-      		<nome>bisognosi di ferro</nome>
-    	</esigenza>
-    	<esigenza>
-      		<nome>donne in gravidanza</nome>
-    	</esigenza>
+			<nome>farine</nome>
+		</tipoProdotto>
+		<tipoProdotto>
+			<nome>condimenti</nome>
+		</tipoProdotto>
+		<tipoProdotto>
+			<nome>sughi, pesto e passate</nome>
+		</tipoProdotto>
+		<tipoProdotto>
+			<nome>marmellate e composte</nome>
+		</tipoProdotto>
+		<tipoProdotto>
+			<nome>pasta e riso</nome>
+		</tipoProdotto>
+		<tipoProdotto>
+			<nome>snack</nome>
+		</tipoProdotto>
+	</tipiProdotti>
+	<listaEsigenze>
+		<esigenza>
+			<nome>celiaci</nome>
+		</esigenza>
+		<esigenza>
+			<nome>vegani</nome>
+		</esigenza>
+		<esigenza>
+			<nome>vegetariani</nome>
+		</esigenza>
+		<esigenza>
+			<nome>bisognosi di ferro</nome>
+		</esigenza>
+		<esigenza>
+			<nome>donne in gravidanza</nome>
+		</esigenza>
 	</listaEsigenze>
-  	<produttori>
-    	<produttore>
-      		<nome>Desantis</nome>
-      		<tipo>allevatore</tipo>
-      		<descr>È un allevatore di mucche, galline, etc.</descr>
-      		<indirizzo>via delle Leghe 16, Milano (MI)</indirizzo>
-      		<mail>effetti@gmail.com</mail>
-      		<telefono>+393481111000</telefono>
-      		<password>1234</password>
-    	</produttore>
+	<produttori>
 		<produttore>
-      		<nome>Gerola</nome>
-      		<tipo>agricoltore tipo1</tipo>
-			<descr>È l'agricoltore più in del momento, con le sue coltivazioni di marijuana, etc.</descr>
-      		<indirizzo>piazza Duomo, Milano (MI)</indirizzo>
-      		<mail>filippo.gerola@gmail.com</mail>
-      		<telefono>+393481111000</telefono>
-      		<password>1234</password>
-    	</produttore>
-    	<produttore>
-      		<nome>Pedrotti</nome>
-      		<tipo>allevatore</tipo>
-      		<descr>Alleva da tanti anni le stesse galline, ma, si sa, gallina vecchia fa buon brodo!</descr>
-      		<indirizzo>piazza Leonardo da Vinci 32, Milano (MI)</indirizzo>
-      		<mail>edobounce@gmail.com</mail>
-      		<telefono>+393481111000</telefono>
-      		<password>1234</password>
-    	</produttore>
-  	</produttori>
-  	<prodotti>
-    	<prodotto>
-      		<nome>Fiorentina di manzo</nome>
-      		<produttore>Desantis</produttore>
-      		<tipo>carne</tipo>
-      		<descr>La classica carne toscana!</descr>
-      		<infoNutrizionali>Fa ingrassare ai livelli!</infoNutrizionali>
-    	</prodotto>
-    	<prodotto>
-      		<nome>Uova di gallina</nome>
-      		<produttore>Desantis</produttore>
-      		<tipo>carne</tipo>
-      		<descr>Le uova biologiche più fresche e buone!</descr>
-      		<infoNutrizionali>Valori medi per 100 grammi senza guscio:\nValore energetico: Kcal 128 (KJ 535)\nProteine: g 12,4\nCarboidrati: g 0,5\nGrassi: g 8,7</infoNutrizionali>
-      		<esigenze>
-        		<esigenza>vegetariani</esigenza>
-        		<esigenza>bisognosi di ferro</esigenza>
-      		</esigenze>
-    	</prodotto>
-  	</prodotti>
-  	<offerte>
-    	<offerta>
-      		<prodotto>Uova di gallina</prodotto>
-      		<giorniOfferta>15</giorniOfferta>
-    	</offerta>
-  	</offerte>
+			<nome>Desantis</nome>
+			<tipo>allevatore</tipo>
+			<descr>È un allevatore di mucche, galline, etc.</descr>
+			<indirizzo>via delle Leghe 16, Milano (MI)</indirizzo>
+			<mail>effetti@gmail.com</mail>
+			<telefono>+393481111000</telefono>
+			<password>1234</password>
+		</produttore>
+		<produttore>
+			<nome>Gerola</nome>
+			<tipo>agricoltore tipo1</tipo>
+			<descr>È l'agricoltore più in del momento, con le sue coltivazioni di
+				marijuana, etc.</descr>
+			<indirizzo>piazza Duomo, Milano (MI)</indirizzo>
+			<mail>filippo.gerola@gmail.com</mail>
+			<telefono>+393481111000</telefono>
+			<password>1234</password>
+		</produttore>
+		<produttore>
+			<nome>Pedrotti</nome>
+			<tipo>allevatore</tipo>
+			<descr>Alleva da tanti anni le stesse galline, ma, si sa, gallina
+				vecchia fa buon brodo!</descr>
+			<indirizzo>piazza Leonardo da Vinci 32, Milano (MI)</indirizzo>
+			<mail>edobounce@gmail.com</mail>
+			<telefono>+393481111000</telefono>
+			<password>1234</password>
+		</produttore>
+	</produttori>
+	<prodotti>
+		<prodotto>
+			<nome>Fiorentina di manzo</nome>
+			<produttore>Desantis</produttore>
+			<tipo>carne</tipo>
+			<descr>La classica carne toscana!</descr>
+			<infoNutrizionali>Fa ingrassare ai livelli!</infoNutrizionali>
+		</prodotto>
+		<prodotto>
+			<nome>Uova di gallina</nome>
+			<produttore>Desantis</produttore>
+			<tipo>carne</tipo>
+			<descr>Le uova biologiche più fresche e buone!</descr>
+			<infoNutrizionali>Valori medi per 100 grammi senza guscio:\nValore
+				energetico: Kcal 128 (KJ 535)\nProteine: g 12,4\nCarboidrati: g
+				0,5\nGrassi: g 8,7</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>bisognosi di ferro</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Riso baldo superfino</nome>
+			<produttore>Desantis</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L’agricoltura biologica è un metodo di coltivazione che
+				preserva l’equilibrio dell’ambiente impiegando fertilizzanti
+				naturali, utilizzando la rotazione delle colture ed escludendo
+				l'utilizzo di sostanze di sintesi chimica.
+				Consigli utili: non lavate
+				il riso prima di cuocerlo per evitare la
+				dispersione di sostanze
+				utili e cucinatelo a pentola scoperta. Una
+				volta cotto, non
+				lasciatelo nell’acqua perché la cottura continua
+				anche a fuoco
+				spento.
+      		</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: Kcal 332 /1389 Kj
+				Proteine: 6,79 g
+				Carboidrati: 80,49 g
+				di cui Zuccheri: 0,29 g
+				Grassi: 0,49 g
+				Fibra
+				alimentare: 1 g
+				Sodio: 5 mg
+      		</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Riso baldo superfino integrale</nome>
+			<produttore>Desantis</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L’agricoltura biologica è un metodo di coltivazione che
+				preserva l’equilibrio dell’ambiente impiegando fertilizzanti
+				naturali, utilizzando la rotazione delle colture ed escludendo
+				l'utilizzo di sostanze di sintesi chimica.
+				Consigli utili: non lavate
+				il riso prima di cuocerlo per evitare la
+				dispersione di sostanze
+				utili e cucinatelo a pentola scoperta. Una
+				volta cotto, non
+				lasciatelo nell’acqua perché la cottura continua
+				anche a fuoco
+				spento.
+      		</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: Kcal 337 /1411 Kj
+				Proteine: 7,5 g
+				Carboidrati: 77,4 g
+				Grassi: 1,9 g
+      		</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariali</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Fusilli</nome>
+			<produttore>Gerola</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L'accurata selezione nella scelta del grano biologico, l'acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l'aria pura di montagna
+				utilizzata nel processo di essicazione conferiscono alla pasta da
+				agricoltura biologica un gusto inconfondibile ed una grande tenuta
+				di cottura</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: Kcal 337 /1411 Kj
+				Proteine: 7,5 g
+				Carboidrati: 77,4 g
+				Grassi: 1,9 g
+      		</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Fusilli integrali</nome>
+			<produttore>Gerola</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L'accurata selezione nella scelta del grano biologico, l'acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l'aria pura di montagna
+				utilizzata nel processo di essicazione conferiscono alla pasta da un
+				gusto inconfondibile ed una grande tenuta di cottura
+				INGREDIENTI:
+				semola di integrale di grano duro, acqua.</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: Kcal 326 / 1382 Kj
+				Proteine: 11,50 g
+				Carboidrati: 65,42 g
+				di cui Zuccheri: 5,54 g
+				Grassi: 2,0 g
+				di cui
+				Saturi: 0,37 g
+				Fibra alimentare: 9,0 g
+				Sodio: 0,002
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Maccheroni</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L'accurata selezione nella scelta del grano biologico, l'acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l'aria pura di montagna
+				utilizzata nel processo di essicazione conferiscono alla pasta un
+				gusto inconfondibile ed una grande tenuta di cottura
+				INGREDIENTI:
+				semola di grano duro, acqua.
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: Kcal 351 / 1491 Kj
+				Proteine: 12,50 g
+				Carboidrati: 72,0 g
+				di cui Zuccheri: 1,15 g
+				Grassi: 1,46 g
+				di cui
+				Saturi: 0,30 g
+				Fibra alimentare: 2,90 g
+				Sodio: 0,004
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza></esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Maccheroni integrali</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L'accurata selezione nella scelta del grano biologico, l'acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l'aria pura di montagna
+				utilizzata nel processo di essicazione conferiscono alla pasta un
+				gusto inconfondibile ed una grande tenuta di cottura
+				INGREDIENTI:
+				semola di grano duro, acqua.
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: Kcal 351 / 1491 Kj
+				Proteine: 12,50 g
+				Carboidrati: 72,0 g
+				di cui Zuccheri: 1,15 g
+				Grassi: 1,46 g
+				di cui
+				Saturi: 0,30 g
+				Fibra alimentare: 2,90 g
+				Sodio: 0,004
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Penne</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L’accurata selezione nella scelta del grano biologico, l’acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l’aria pura di montagna
+				utilizzata nel processo di essiccazione conferiscono alla pasta un
+				gusto inconfondibile ed una grande tenuta di cottura
+				INGREDIENTI:
+				semola di grano duro, acqua.
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: Kcal 351 / 1491 Kj
+				Proteine: 12,50 g
+				Carboidrati: 72,00 g
+				di cui Zuccheri: 1,15 g
+				Grassi: 1,46 g
+				di cui
+				Saturi: 0,30 g
+				Fibra alimentare: 2,90 g
+				Sodio: 0,004 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Penne integrali</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L’accurata selezione nella scelta del grano biologico, l’acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l’aria pura di montagna
+				utilizzata nel processo di essiccazione conferiscono alla pasta un
+				gusto inconfondibile ed una grande tenuta di cottura
+				INGREDIENTI:
+				semola di grano duro, acqua.
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 di
+				prodotto
+				Valore energetico: Kcal 326 / 1382 Kj
+				Proteine: 11,50 g
+				Carboidrati: 65,42 g
+				di cui Zuccheri: 5,54
+				Grassi: 2,0 g
+				di cui Saturi:
+				0,37 g
+				Fibra alimentare: 9,0 g
+				Sodio: 0,002 g
+
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Spaghetti</nome>
+			<produttore>Desantis</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L'accurata selezione nella scelta del grano biologico, l'acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l'aria pura di montagna
+				utilizzata nel processo di essicazione conferiscono alla pasta un
+				gusto inconfondibile ed una grande tenuta di cottura
+				INGREDIENTI:
+				semola di grano duro, acqua.
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: Kcal 351 /1491 Kj
+				Proteine: 12,50 g
+				Carboidrati: 72,0 g
+				di cui Zuccheri: 1,15 g
+				Grassi: 1,46 g
+				di cui
+				Saturi: 0,30 g
+				Fibra alimentare: 2,90 g
+				Sodio: 0,004 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Spaghetti integrali</nome>
+			<produttore>Desantis</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L'accurata selezione nella scelta del grano biologico, l'acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l'aria pura di montagna
+				utilizzata nel processo di essicazione conferiscono alla pasta un
+				gusto inconfondibile ed una grande tenuta di cottura
+				INGREDIENTI:
+				semola di grano duro, acqua.
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori
+				medi per 1 g di
+				prodotto Valore energetico: Kcal 3 Kj Proteine: 1 g
+				Carboidrati: 7 g
+				di cui Zuccheri: 5 g Grassi: 2 g di cui Saturi: 0 g
+				Fibra alimentare:
+				9 g Sodio: 0 g
+		</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Linguine</nome>
+			<produttore>Gerola</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L'accurata selezione nella scelta del grano biologico,
+				l'acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l'aria pura di
+				montagna
+				utilizzata nel processo di essicazione conferiscono alla
+				pasta un
+				gusto inconfondibile ed una grande tenuta di cottura
+				INGREDIENTI:
+				semola di grano duro, acqua.
+				</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: Kcal 351 / 1491 Kj
+				Proteine: 12,50 g
+				Carboidrati: 72,0 g
+				di cui Zuccheri: 1,15 g
+				Grassi: 1,46 g
+				di cui
+				Saturi: 0,30 g
+				Fibra alimentare: 2,90 g
+				Sodio: 0,004
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Linguine integrali</nome>
+			<produttore>Gerola</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L'accurata selezione nella scelta del grano biologico, l'acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l'aria pura di montagna
+				utilizzata nel processo di essicazione conferiscono alla pasta un
+				gusto inconfondibile ed una grande tenuta di cottura
+				INGREDIENTI:
+				semola di grano duro, acqua.
+				</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: Kcal 326 / 1382 Kj
+				Proteine: 11,50 g
+				Carboidrati: 65,42 g
+				di cui Zuccheri: 5,54 g
+				Grassi: 2,0 g
+				di cui
+				Saturi: 0,37 g
+				Fibra alimentare: 9,00 g
+				Sodio: 0,002
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Conchiglie</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L'accurata selezione nella scelta del grano biologico,
+				l'acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l'aria pura di
+				montagna
+				utilizzata nel processo di essicazione conferiscono alla
+				pasta un
+				gusto inconfondibile ed una grande tenuta di cottura
+				INGREDIENTI:
+				semola di grano duro, acqua.
+				</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: Kcal 351 /1491 Kj
+				Proteine: 12,50 g
+				Carboidrati: 72,0 g
+				di cui Zuccheri: 1,15 g
+				Grassi: 1,46 g
+				di cui
+				Saturi: 0,30 g
+				Fibra alimentare: 2,90 g
+				Sodio: 0,004 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Conchiglie integrali</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>pasta e riso</tipo>
+			<descr>L'accurata selezione nella scelta del grano biologico,
+				l'acqua
+				che sgorga dal cuore delle Alpi Dolomitiche, l'aria pura di
+				montagna
+				utilizzata nel processo di essicazione conferiscono alla
+				pasta un
+				gusto inconfondibile ed una grande tenuta di cottura
+				INGREDIENTI:
+				semola di grano duro, acqua.
+				</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: Kcal 326 /1382 Kj
+				Proteine: 11,50 g
+				Carboidrati: 65,42 g
+				di cui Zuccheri: 5,54 g
+				Grassi: 2,0 g
+				di cui
+				Saturi: 0,37 g
+				Fibra alimentare: 9,0 g
+				Sodio: 0,002 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Succo di mela</nome>
+			<produttore>Desantis</produttore>
+			<tipo>bevande</tipo>
+			<descr></descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
+				prodotto
+				Valore energetico: 45 Kcal / 192 KJ
+				Proteine: 0,2 g
+				Carboidrati: 10,9 g
+				di cui Zuccheri: 10,7 g
+				Grassi: 0,1 g
+				di cui
+				Saturi: 0,0 g
+				Fibra alimentare: 0,1 g
+				Sodio: 0,002 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Bevanda a base di mirtilli</nome>
+			<produttore>Desantis</produttore>
+			<tipo>bevande</tipo>
+			<descr></descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
+				prodotto
+				Valore energetico: 60 kcal / 255 kj
+				Proteine: 0,50 g
+				Carboidrati: 12,70 g
+				Grassi: 0,20 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Succo e polpa di albicocca</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>bevande</tipo>
+			<descr></descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
+				prodotto
+				Valore energetico: Kcal 59 / KJ 248
+				Proteine: 0,7 g
+				Carboidrati: 13 g
+				di cui Zuccheri: 13 g
+				Grassi: 0,2 g
+				di cui Saturi:
+				0,1 g
+				Fibra alimentare: 1,0 g
+				Sodio: 0,01g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Succo e polpa di pera</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>bevande</tipo>
+			<descr></descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
+				prodotto
+				Valore energetico: Kcal 64 / KJ 269
+				Proteine: 0,3 g
+				Carboidrati: 14,2 g
+				di cui Zuccheri: 14,2 g
+				Grassi: 0,3 g
+				di cui
+				Saturi: 0,1 g
+				Fibra alimentare: 1,4 g
+				Sodio: 0,01g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Succo e polpa di pesca</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>bevande</tipo>
+			<descr></descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
+				prodotto
+				Valore energetico: Kcal 60 / KJ 253
+				Proteine: 0,4 g
+				Carboidrati: 13,8 g
+				di cui Zuccheri: 13,8 g
+				Grassi: 0,1 g
+				di cui
+				Saturi: 0,1 g
+				Fibra alimentare: 1,0 g
+				Sodio: 0,01g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome></nome>
+			<produttore></produttore>
+			<tipo>bevande</tipo>
+			<descr></descr>
+			<infoNutrizionali></infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+
+		<prodotto>
+			<nome>Bevanda di arancia, carota e limone</nome>
+			<produttore></produttore>
+			<tipo>bevande</tipo>
+			<descr></descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
+				prodotto
+				Valore energetico: Kcal 48 / KJ 203
+				Proteine: 0,4 g
+				Carboidrati: 11,3 g
+				di cui Zuccheri: 11,3 g
+				Grassi: 0,1 g
+				di cui
+				Saturi: 0,1 g
+				Fibra alimentare: 0,1 g
+				Sodio: 0,01g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+	</prodotti>
+	<offerte>
+		<offerta>
+			<prodotto>Uova di gallina</prodotto>
+			<giorniOfferta>15</giorniOfferta>
+		</offerta>
+	</offerte>
+	<fotoProdotti>
+		<foto>
+			<prodotto>Riso baldo superfino</prodotto>
+			<contenuto>images/prodotti/risoPasta/risoPasta/riso baldo
+				superfino.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Riso baldo superfino integrale</prodotto>
+			<contenuto>images/prodotti/risoPasta/risoPasta/riso baldo superfino
+				integrale.png
+			</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Fusilli</prodotto>
+			<contenuto>images/prodotti/risoPasta/risoPasta/fusilli.png
+			</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Fusilli integrali</prodotto>
+			<contenuto>images/prodotti/risoPasta/fusilli integrali.png
+			</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Maccheroni</prodotto>
+			<contenuto>images/prodotti/risoPasta/maccheroni.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Maccheroni integrali</prodotto>
+			<contenuto>images/prodotti/risoPasta/maccheroni integrali.png
+			</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Penne</prodotto>
+			<contenuto>images/prodotti/risoPasta/penne.png</contenuto>
+		</foto>
+
+		<foto>
+			<prodotto>Penne integrali</prodotto>
+			<contenuto>images/prodotti/risoPasta/penne integrali.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Spaghetti</prodotto>
+			<contenuto>images/prodotti/risoPasta/spaghetti.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Spaghetti integrali</prodotto>
+			<contenuto>images/prodotti/risoPasta/spaghetti integrali.png
+			</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Linguine</prodotto>
+			<contenuto>images/prodotti/risoPasta/linguine.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Linguine integrali</prodotto>
+			<contenuto>images/prodotti/risoPasta/linguine integrali.png
+			</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Conchiglie</prodotto>
+			<contenuto>images/prodotti/risoPasta/conchiglie.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Conchiglie integrali</prodotto>
+			<contenuto>images/prodotti/risoPasta/conchiglie integrali.png
+			</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Succo di mel</prodotto>
+			<contenuto>images/prodotti/bevande/succo di mela.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Bevanda a base di mirtilli</prodotto>
+			<contenuto>images/prodotti/bevande/bevanda mirtilli.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Succo e polpa di albicocca</prodotto>
+			<contenuto>images/prodotti/bevande/succo e polpa albicocca.png
+			</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Succo e polpa di pera</prodotto>
+			<contenuto>images/prodotti/bevande/succo e polpa pera.png
+			</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Succo e polpa di pesca</prodotto>
+			<contenuto>images/prodotti/bevande/succo e polpa pesca.png
+			</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Bevanda di arancia, carota e limone</prodotto>
+			<contenuto>images/prodotti/bevande/bevanda arancia, carota e limone.png</contenuto>
+		</foto>
+
+		<foto>
+			<prodotto></prodotto>
+			<contenuto>images/prodotti/bevande/</contenuto>
+		</foto>
+	</fotoProdotti>
 </database>
