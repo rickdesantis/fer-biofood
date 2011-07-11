@@ -8,6 +8,7 @@ import com.google.appengine.api.datastore.Transaction;
 import it.aip.mcdonald.meta.*;
 import it.aip.mcdonald.model.*;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -219,7 +220,7 @@ public class ManageWorld {
     public void initAllFromXml() throws ParserConfigurationException, SAXException, IOException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
-        Document doc = builder.parse("biofood/database.xml");
+        Document doc = builder.parse(new File("WEB-INF/database.xml"));
         
         {
             List<Map<String, Object>> maps = retrieveTagByName(doc, "tipoProduttore", "tipiProduttori");
