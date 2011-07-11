@@ -2,12 +2,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%@taglib prefix="f" uri="http://www.slim3.org/functions"%>
-<%@page import="org.slim3.datastore.Datastore" %>
-<%@page import="it.aip.mcdonald.meta.TipoProdottoMeta" %>
-<%@page import="it.aip.mcdonald.model.TipoProdotto" %>
-<%@page import="it.aip.mcdonald.meta.ProdottoMeta" %>
-<%@page import="it.aip.mcdonald.model.Prodotto" %>
-<%@page import="java.util.List" %>	
+<%@page import="java.util.List" %>
 
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -34,26 +29,34 @@
 <%@ include file="landmarks.html" %>
 <div id="sidebar">
    	  <div class="padding">
-        
        <ul id="transLink" >
-        	<li ><a href="offerte">Offerte</a></li>
+        	<li ><a href="esigenze">Torna alle esigenze</a></li>
             
     	</ul> 
       </div>
   </div>
   <div id="content">
   
-	<div class="padding"><h2>Prodotti</h2>
-	  <ul id="productList" >
+	<div class="padding"><h2>Prodotti per ${n}</h2>
+   		 <%
+			List<String> pr = (List<String>) request.getAttribute("prodotti");
+			if (pr.size() > 0) {
+		%>
+		<ul id="productList" >
         	<%
-				TipoProdottoMeta e = TipoProdottoMeta.get();
-				List<TipoProdotto> list = Datastore.query(e).asList();
-				for (TipoProdotto u : list) {
-					out.println( "<li><a href=\"tipoProdotto?n=" + u.getNome().replaceAll(" ", "+") + "\">" + u.getNome() + " (" + request.getAttribute(u.getNome() + "_count") + " elementi)</a></li>");
+				
+				
+				for (int i = 0; i < pr.size(); ++i) {
+					out.println("<li><a href=\"prodotto?n=" + pr.get(i).replace(" ", "+") + "\">" + pr.get(i) + "</a></li>");
 				}
 			%>
     	</ul>
-</div>
+    	<%
+    		} else {
+    			out.println("<p>Nessun elemento trovato!</p>");
+    		}
+    	%>
+	 </div>
   </div>
   <div id="footer"></div>
 </div>

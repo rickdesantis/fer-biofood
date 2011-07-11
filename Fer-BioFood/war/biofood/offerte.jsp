@@ -44,7 +44,6 @@
   </div>
   <div id="content">
   
-  <img id= "toprightimage" src="images/cc-carne.gif" width="256" height="200" alt="carnazza" />
 	<div class="padding">
 	  <h2>Offerte</h2>
 		<ul id="offertList" >

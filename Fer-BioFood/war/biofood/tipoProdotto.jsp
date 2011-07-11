@@ -38,7 +38,6 @@
   </div>
   <div id="content">
   
-  <img id= "toprightimage" src="images/cc-carne.gif" width="256" height="200" alt="carnazza" />
 	<div class="padding"><h2>Tipo prodotti: ${n}</h2>
 		<%
 			List<String> pr = (List<String>) request.getAttribute("prodotti");
