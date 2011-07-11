@@ -516,7 +516,8 @@
 			<nome>Succo di mela</nome>
 			<produttore>Desantis</produttore>
 			<tipo>bevande</tipo>
-			<descr>aaaa</descr>
+			<descr>aaaa
+			</descr>
 			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
 				prodotto
 				Valore energetico: 45 Kcal / 192 KJ
@@ -538,7 +539,8 @@
 			<nome>Bevanda a base di mirtilli</nome>
 			<produttore>Desantis</produttore>
 			<tipo>bevande</tipo>
-			<descr></descr>
+			<descr>aaaa
+			</descr>
 			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
 				prodotto
 				Valore energetico: 60 kcal / 255 kj
@@ -555,7 +557,8 @@
 			<nome>Succo e polpa di albicocca</nome>
 			<produttore>Pedrotti</produttore>
 			<tipo>bevande</tipo>
-			<descr></descr>
+			<descr>aaaa
+			</descr>
 			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
 				prodotto
 				Valore energetico: Kcal 59 / KJ 248
@@ -577,7 +580,8 @@
 			<nome>Succo e polpa di pera</nome>
 			<produttore>Pedrotti</produttore>
 			<tipo>bevande</tipo>
-			<descr></descr>
+			<descr>aaaa
+			</descr>
 			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
 				prodotto
 				Valore energetico: Kcal 64 / KJ 269
@@ -599,7 +603,8 @@
 			<nome>Succo e polpa di pesca</nome>
 			<produttore>Pedrotti</produttore>
 			<tipo>bevande</tipo>
-			<descr></descr>
+			<descr>aaaa
+			</descr>
 			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
 				prodotto
 				Valore energetico: Kcal 60 / KJ 253
@@ -619,9 +624,10 @@
 		</prodotto>
 		<prodotto>
 			<nome>Bevanda di arancia, carota e limone</nome>
-			<produttore></produttore>
+			<produttore>Desantis</produttore>
 			<tipo>bevande</tipo>
-			<descr></descr>
+			<descr>aaaa
+			</descr>
 			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
 				prodotto
 				Valore energetico: Kcal 48 / KJ 203
@@ -637,6 +643,945 @@
 			<esigenze>
 				<esigenza>vegetariani</esigenza>
 				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Frollini al kamut</nome>
+			<produttore>Desantis</produttore>
+			<tipo>cereali e prima colazione</tipo>
+			<descr>Ingredienti: farina di grano kamut (63,3%), malto di riso,
+				grasso vegetale, miele (2,7%), farina di lupini, agenti lievitanti
+				(carbonato acido di sodio, carbonato acido di ammonio e tartrato
+				monopotassico), sale, emulsionanti (lecitina di soia), aromi
+				naturali.</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 454 Kcal / 1907 Kj
+				Proteine: 10,3 g
+				Carboidrati: 65,1 g
+				di cui Zuccheri: 8,13 g
+				Grassi: 16,9 g
+				di cui
+				Saturi: 7,80 g
+				Colesterolo: 0,1 mg
+				Fibra alimentare: 3,22 g
+				Sodio:
+				0,197 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Oswego</nome>
+			<produttore>Gerola</produttore>
+			<tipo>cereali e prima colazione</tipo>
+			<descr>Ingredienti: farina di grano kamut (63,3%), malto di riso,
+				grasso vegetale, miele (2,7%), farina di lupini, agenti lievitanti
+				(carbonato acido di sodio, carbonato acido di ammonio e tartrato
+				monopotassico), sale, emulsionanti (lecitina di soia), aromi
+				naturali.</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 454 Kcal / 1907 Kj
+				Proteine: 10,3 g
+				Carboidrati: 65,1 g
+				di cui Zuccheri: 8,13 g
+				Grassi: 16,9 g
+				di cui
+				Saturi: 7,80 g
+				Colesterolo: 0,1 mg
+				Fibra alimentare: 3,22 g
+				Sodio:
+				0,197 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Biscotti al cacao</nome>
+			<produttore>Gerola</produttore>
+			<tipo>cereali e prima colazione</tipo>
+			<descr>Ingredienti: farina di grano tenero, zucchero ci canna, olio
+				extravergine di oliva (12,5%), cacao (5%), malto di frumento, agenti
+				lievitanti (carbonato acido di sodio, carbonato acido di ammonio,
+				tartrato monopotassico), sale.</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 430 Kcal / 1809 Kj
+				Proteine: 7,9 g
+				Carboidrati: 69,8 g
+				di cui Zuccheri: 23,0 g
+				Grassi: 13,2 g
+				di cui
+				Saturi: 2,7 g
+				Fibra alimentare: 3,1 g
+				Sodio: 0,2 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+
+		<prodotto>
+			<nome>Corn flakes</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>cereali e prima colazione</tipo>
+			<descr>aaaa
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 320 kcal / 1356 kj
+				Proteine: 7,7 g
+				Carboidrati: 66,4 g
+				Grassi: 2,6 g
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Muesli alla frutta</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>cereali e prima colazione</tipo>
+			<descr>Ingredienti: farina di frumento (66,4%), zucchero di canna,
+				olio extra vergine di oliva (7,3%), sciroppo di glucosio da mais,
+				succo d'uva concentrato, succo di mela concentrato, cruschello,
+				miele (1%), emulsionante (lecitina di soia), agenti lievitanti
+				(carbonato acido di sodio, carbonato acido di ammonio, tartrato
+				monopotassico) sale, aromi naturali.</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 435 Kcal / 1836 Kj
+				Proteine: 8,0 g
+				Carboidrati: 77 g
+				di cui Zuccheri: 18,4 g
+				Grassi: 10,0 g
+				di cui Saturi:
+				1,5 g
+				Fibra alimentare: 2,6 g
+				Sodio: 0,3 g
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Biscotti secchi assortiti</nome>
+			<produttore>Desantis</produttore>
+			<tipo>cereali e prima colazione</tipo>
+			<descr>Ingredienti: farina di frumento (66,4%), zucchero di canna,
+				olio extra vergine di oliva (7,3%), sciroppo di glucosio da mais,
+				succo d'uva concentrato, succo di mela concentrato, cruschello,
+				miele (1%), emulsionante (lecitina di soia), agenti lievitanti
+				(carbonato acido di sodio, carbonato acido di ammonio, tartrato
+				monopotassico) sale, aromi naturali.</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 435 Kcal / 1836 Kj
+				Proteine: 8,0 g
+				Carboidrati: 77 g
+				di cui Zuccheri: 18,4 g
+				Grassi: 10,0 g
+				di cui Saturi:
+				1,5 g
+				Fibra alimentare: 2,6 g
+				Sodio: 0,3 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Frollini di farro e fiocchi d'avena</nome>
+			<produttore>Desantis</produttore>
+			<tipo>cereali e prima colazione</tipo>
+			<descr>Ingredienti: farina di farro 52,6%, olio di palma, sciroppo di
+				glucosio da riso e malto d'orzo, fiocchi di avena 8,3%, succo di
+				mela concentrato, miele 5,0%, agenti lievitanti (carbonato acido di
+				sodio, carbonato acido di ammonio. tartrato monopotassico), sale.
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 457 Kcal / 1919 Kj
+				Proteine: 10,2 g
+				Carboidrati: 63,2 g
+				di cui Zuccheri: 11,7 g
+				Grassi: 17,2 g
+				di cui
+				Saturi: 8,0 g
+				Fibra alimentare: 4,3 g
+				Sodio: 0,2g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Muesli classico</nome>
+			<produttore>Gerola</produttore>
+			<tipo>cereali e prima colazione</tipo>
+			<descr>aaaaa</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 322 kcal / 1361 kj
+				Proteine: 10,1 g
+				Carboidrati: 59,7 g
+				Grassi: 4,7 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Fette biscottate di farro</nome>
+			<produttore>Gerola</produttore>
+			<tipo>cereali e prima colazione</tipo>
+			<descr>INGREDIENTI: farina di farro 92%, olio extravergine di oliva
+				5%, lievito, sale. Può contenere tracce di latte.</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 398 kcal / 1680 Kj
+				Proteine: 12,9 g
+				Carboidrati: 68,0 g
+				di cui zuccheri: 2,3 g
+				Grassi: 7,0 g
+				di cui saturi:
+				1,0 g
+				Fibra alimentare: 5,7 g
+				Sodio: 0,4 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Fette biscottate di frumento</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>cereali e prima colazione</tipo>
+			<descr>INGREDIENTI: farina di frumento 92%, olio extravergine di
+				oliva 5%, lievito, sale.</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 397 kcal / 1677 Kj
+				Proteine: 14,3 g
+				Carboidrati: 68,5 g
+				di cui zuccheri: 3,1 g
+				Grassi: 6,6 g
+				di cui saturi:
+				1,0 g
+				Fibra alimentare: 3,1 g
+				Sodio: 0,3 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Fette biscottate di kamut</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>cereali e prima colazione</tipo>
+			<descr>INGREDIENTI: farina di grano Khorasan KAMUT 92%, olio
+				extravergine di oliva 5%, lievito, sale. Può contenere tracce di
+				latte</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 395 kcal / 1667 Kj
+				Proteine: 13,8 g
+				Carboidrati: 66,0 g
+				di cui Zuccheri: 4,0 g
+				Grassi: 7,4 g
+				di cui saturi:
+				1,1 g
+				Fibra alimentare: 4,6 g
+				Sodio: 0,35 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>celiaci</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Farina di grano tenero tipo 0</nome>
+			<produttore>Desantis</produttore>
+			<tipo>farine</tipo>
+			<descr>La Farina Integrale è ottenuta macinando a pietra l'intero
+				chicco, compreso il germe. Aumentando progressivamente la
+				raffinazione si ottengono le farine di Tipo «0», ideale per la
+				panificazione, e Tipo «00», detta anche «fior di farina».
+				Quest'ultima è indicata per i dolci.</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 360 kcal / 1528 kj
+				Proteine: 11,5 g
+				Carboidrati: 76,2 g
+				Grassi: 1,0 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Farina di grano tenero tipo 00</nome>
+			<produttore>Desantis</produttore>
+			<tipo>farine</tipo>
+			<descr>La Farina Integrale è ottenuta macinando a pietra l'intero
+				chicco, compreso il germe. Aumentando progressivamente la
+				raffinazione si ottengono le farine di Tipo «0», ideale per la
+				panificazione, e Tipo «00», detta anche «fior di farina».
+				Quest'ultima è indicata per i dolci.</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 360 kcal / 1527 kj
+				Proteine: 11,0 g
+				Carboidrati: 77,3 g
+				Grassi: 0,7 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Farina integrale di grano tenero</nome>
+			<produttore>Gerola</produttore>
+			<tipo>farine</tipo>
+			<descr>La Farina Integrale è ottenuta macinando a pietra l'intero
+				chicco, compreso il germe. Aumentando progressivamente la
+				raffinazione si ottengono le farine di Tipo «0», ideale per la
+				panificazione, e Tipo «00», detta anche «fior di farina».
+				Quest'ultima è indicata per i dolci.</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 336 kcal / 1425 kj
+				Proteine: 11,9 g
+				Carboidrati: 67,8 g
+				Grassi: 1,9 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Farina di farro integrale</nome>
+			<produttore>Gerola</produttore>
+			<tipo>farine</tipo>
+			<descr>aaaa
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 347 kcal / 1470 kj
+				Proteine: 13,8 g
+				Carboidrati: 62,8 g
+				di cui zuccheri: 4,5 g
+				Grassi: 2,65 g
+				di cui
+				saturi: 0,53 g
+				fibra alimentare: 7,5 g
+				Sodio: 0,003 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Farina di kamut bianca</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>farine</tipo>
+			<descr>aaaa 
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 344 kcal / 1463 kj
+				Proteine: 14,3 g
+				Carboidrati: 69,94 g
+				di cui zuccheri: 3,84 g
+				Grassi: 0,91 g
+				di cui
+				saturi: 0,18 g
+				fibra alimentare: 4,0 g
+				Sodio: 0,003 g
+
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Farina di farro bianca</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>farine</tipo>
+			<descr>aaaa 
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 356 kcal / 1511 kj
+				Proteine: 12,0 g
+				Carboidrati: 73,97 g
+				di cui zuccheri: 4,32 g
+				Grassi: 1,59 g
+				di cui
+				saturi: 0,3 g
+				fibra alimentare: 3,25 g
+				Sodio: 0,001 g
+
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Zuppa legumi e cereali</nome>
+			<produttore>Desantis</produttore>
+			<tipo>cereali e legumi</tipo>
+			<descr>Ingredienti: legumi 81% (misto di fagioli, piselli spezzati,
+				azuki verdi, lenticchie, lenticchie rosse decorticate), cereali 19%
+				(orzo perlato, farro perlato).
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 330 kcal / 1394 kj
+				Proteine: 20,3 g
+				Carboidrati: 52,9 g
+				di cui zuccheri: 6,2 g
+				Grassi: 1,5 g
+				di cui saturi:
+				0,3 g
+				Fibra alimentare: 11,7 g
+				Sodio: 0,01 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>bisognosi di ferro</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Ceci secchi</nome>
+			<produttore>Desantis</produttore>
+			<tipo>cereali e legumi</tipo>
+			<descr>Ingredienti: legumi 81% (misto di fagioli, piselli spezzati,
+				azuki verdi, lenticchie, lenticchie rosse decorticate), cereali 19%
+				(orzo perlato, farro perlato). 
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 330 kcal / 1394 kj
+				Proteine: 20,3 g
+				Carboidrati: 52,9 g
+				di cui zuccheri: 6,2 g
+				Grassi: 1,5 g
+				di cui saturi:
+				0,3 g
+				Fibra alimentare: 11,7 g
+				Sodio: 0,01 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Fagioli borlotti</nome>
+			<produttore>Desantis</produttore>
+			<tipo>cereali e legumi</tipo>
+			<descr>aaaa 
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 316 kcal / 1336 Kj
+				Proteine: 23,3 g
+				Carboidrati: 45,4 g
+				di cui zuccheri: 2,4 g
+				Grassi: 1,2 g
+				di cui saturi:
+				0,3 g
+				Fibra alimentare: 15,4 g
+				Sodio: 0,01 g
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Farro perlato</nome>
+			<produttore>Gerola</produttore>
+			<tipo>cereali e legumi</tipo>
+			<descr>aaaa 
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 356 kcal / 1511 kj
+				Proteine: 12,0 g
+				Carboidrati: 71,4 g
+				di cui zuccheri: 3,3 g
+				Grassi: 2,2 g
+				di cui saturi:
+				0,2 g
+				Fibra alimentare: 1,5 g
+				Sodio: 0,01 g
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Lenticchie rosse decorticate</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>cereali e legumi</tipo>
+			<descr>aaaa 
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 348 kcal / 1477 kj
+				Proteine: 23,8 g
+				Carboidrati: 57,8 g
+				di cui zuccheri: 1,2 g
+				Grassi: 1,8 g
+				di cui saturi:
+				0,3 g
+				Fibra alimentare: 2,9 g
+				Sodio: 0,01 g
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Ceci</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>cereali e legumi</tipo>
+			<descr>aaaa 
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 90 kcal / 378 Kj
+				Proteine: 6,5 g
+				Carboidrati: 10,3 g
+				Grassi: 1,6 g
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Lenticchie piccole</nome>
+			<produttore>Desantis</produttore>
+			<tipo>cereali e legumi</tipo>
+			<descr>aaaa 
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 333 kcal / 1407 kj
+				Proteine: 25,1 g
+				Carboidrati: 48,7 g
+				di cui zuccheri: 1,1 g
+				Grassi: 1,6 g
+				di cui saturi:
+				0,3 g
+				Fibra alimentare: 11,6 g
+				Sodio: 0,01 g
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Fagioli cannellini</nome>
+			<produttore>Desantis</produttore>
+			<tipo>cereali e legumi</tipo>
+			<descr>aaaa 
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 70 kcal / 297 kj
+				Proteine: 5,29 g
+				Carboidrati: 10,81 g
+				Grassi: 0,64 g
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Aceto balsamico di Modena</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>condimenti</tipo>
+			<descr>INGREDIENTI: aceto di vino, mosto concentrato cotto, zucchero
+				caramellizzato. Contiene solfiti.
+			</descr>
+			<infoNutrizionali>aaaaaa
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Aceto di mele</nome>
+			<produttore>Gerola</produttore>
+			<tipo>condimenti</tipo>
+			<descr>INGREDIENTI: mele fresche
+			</descr>
+			<infoNutrizionali>aaaaaa
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Olio extravergine d'oliva</nome>
+			<produttore>Desantis</produttore>
+			<tipo>condimenti</tipo>
+			<descr>aaaa 
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
+				prodotto
+				Valore energetico: 824 Kcal / 3389 Kj
+				Proteine: 0 g
+				Carboidrati: 0 g
+				Grassi: 91,60 g
+				di cui saturi: 14,90 g
+				di cui
+				monoinsaturi: 69,40 g
+				di cui polinsaturi: 7,30 g
+				Colesterolo: 0 mg
+				Fibre alimentari: 0 g
+				Sodio: 0 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Olio di girasole</nome>
+			<produttore>Gerola</produttore>
+			<tipo>condimenti</tipo>
+			<descr>aaaa 
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 ml di
+				prodotto
+				Valore energetico: 828 Kcal / 3404 Kj
+				Proteine: 0 g
+				Carboidrati: 0 g
+				Grassi: 92 g
+				di cui saturi: 11 g
+				di cui monoinsaturi:
+				25 g
+				di cui polinsaturi: 56 g
+				Colesterolo: 0 mg
+				Fibre alimentari: 0 g
+				Sodio: 0 g
+				Vitamina E: 46 mg
+				circa: 460% RDA= dose giornaliera
+				raccomandata
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Sugo di pomodoro al basilico</nome>
+			<produttore>Desantis</produttore>
+			<tipo>sughi, pesto e passate</tipo>
+			<descr>INGREDIENTI: pomodoro, cipolle, olio extravergine di oliva
+				4,2%, carote, basilico (1,5%), sedano, sale.
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 51 Kcal / 213 Kj
+				Proteine: 1,5 g
+				Carboidrati: 3,2 g
+				Grassi: 3,6 g 
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Sugo di pomodoro alle melanzane</nome>
+			<produttore>Gerola</produttore>
+			<tipo>sughi, pesto e passate</tipo>
+			<descr>INGREDIENTI: pomodoro, melanzane 20%, olio extravergine di
+				oliva 4%, cipolle, carote, sedano, sale.
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 47 Kcal / 195 Kj
+				Proteine: 1,5 g
+				Carboidrati: 2,8 g
+				Grassi: 3,3 g 
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Polpa di pomodoro</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>sughi, pesto e passate</tipo>
+			<descr>INGREDIENTI: polpa di pomodoro, succo di pomodoro, correttore
+				di acidità: acido citrico.
+			</descr>
+			<infoNutrizionali>INGREDIENTI: polpa di pomodoro, succo di pomodoro,
+				correttore di acidità: acido citrico.
+				VALORI NUTRIZIONALI - valori
+				medi per 100 g di prodotto
+				Valore energetico: 21 Kcal / 89 Kj
+				Proteine: 1,5 g
+				Carboidrati: 3,5 g
+				Grassi: 0,1 g 
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Passata di pomodoro</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>sughi, pesto e passate</tipo>
+			<descr>INGREDIENTI: pomodoro
+			</descr>
+			<infoNutrizionali>Valore energetico: 33 Kcal / 140 Kj
+				Proteine: 1,6 g
+				Carboidrati: 6,4 g
+				Grassi: 0,1 g 
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Pomodori pelati</nome>
+			<produttore>Desantis</produttore>
+			<tipo>sughi, pesto e passate</tipo>
+			<descr>INGREDIENTI: pomodori pelati, succo di pomodoro, correttore di
+				acidità: acido citrico.
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 21 Kcal / 89 Kj
+				Proteine: 1,5 g
+				Carboidrati: 3,5 g
+				Grassi: 0,1 g 
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Pesto</nome>
+			<produttore>Desantis</produttore>
+			<tipo>sughi, pesto e passate</tipo>
+			<descr>INGREDIENTI: olio extravergine di oliva 38%, basilico 25%,
+				anacardi, noci, sale, pecorino, pinoli, parmigiano reggiano, aglio.
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 535 Kcal / 2205 Kj
+				Proteine: 4,8 g
+				Carboidrati: 4,2 g
+				Grassi: 54,8 g
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+
+
+		<prodotto>
+			<nome>Composta di mirtilli</nome>
+			<produttore>Gerola</produttore>
+			<tipo>marmellate e composte</tipo>
+			<descr>INGREDIENTI: mirtilli (73%), succo concentrato di mela (27%).
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 197 Kcal / 838 Kj
+				Proteine: 1,48 g
+				Carboidrati: 47,6 g
+				di cui zuccheri: 44,04 g
+				Grassi: 0,1 g
+				di cui
+				saturi: 0,1 g
+				Fibra alimentare: 6,34 g
+				Sodio: 0,03 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Composta di pesca</nome>
+			<produttore>Desantis</produttore>
+			<tipo>marmellate e composte</tipo>
+			<descr>INGREDIENTI: mirtilli (73%), succo concentrato di mela (27%).
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 197 Kcal / 838 Kj
+				Proteine: 1,48 g
+				Carboidrati: 47,6 g
+				di cui zuccheri: 44,04 g
+				Grassi: 0,1 g
+				di cui
+				saturi: 0,1 g
+				Fibra alimentare: 6,34 g
+				Sodio: 0,03 g
+
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Composta di albicocca</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>marmellate e composte</tipo>
+			<descr>INGREDIENTI: albicocca (66%), succo concentrato di mela (34%).
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 236 Kcal / 1004 Kj
+				Proteine: 1,82 g
+				Carboidrati: 57,0 g
+				di cui zuccheri: 50,54 g
+				Grassi: 0,1 g
+				di cui
+				saturi: 0,1 g
+				Fibra alimentare: 2,43 g
+				Sodio: 0,0358 g
+
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Confettura extra di albicocca</nome>
+			<produttore>Desantis</produttore>
+			<tipo>marmellate e composte</tipo>
+			<descr>INGREDIENTI: albicocca, zucchero grezzo di canna
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
+				prodotto
+				Valore energetico: 206 Kcal / 874 Kj
+				Proteine: 0,5 g
+				Carboidrati: 50,7 g
+				Grassi: 0,1 g
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Confettura extra di ciliegia</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>marmellate e composte</tipo>
+			<descr>INGREDIENTI: ciliegia, zucchero grezzo di canna
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di prodotto
+Valore energetico: 219 Kcal / 931 Kj
+Proteine: 1,2 g
+Carboidrati: 53,1 g
+Grassi: 0,2 g
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Confettura extra di fragola</nome>
+			<produttore>Gerola</produttore>
+			<tipo>marmellate e composte</tipo>
+			<descr>INGREDIENTI: fragola, zucchero grezzo di canna
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di prodotto
+Valore energetico: 216 Kcal / 918 KJ
+Proteine: 1,2 g
+Carboidrati: 51,7 g
+Grassi: 0,5 g
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Confettura extra di mirtilli</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>marmellate e composte</tipo>
+			<descr>INGREDIENTI: mirtilli, zucchero grezzo di canna
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di prodotto
+Valore energetico: 245 Kcal / 1041 Kj
+Proteine: 0,4 g
+Carboidrati: 60,4 g
+Grassi: 0,2 g
+
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
+			</esigenze>
+		</prodotto>
+		<prodotto>
+			<nome>Confettura extra di pesca</nome>
+			<produttore>Pedrotti</produttore>
+			<tipo>marmellate e composte</tipo>
+			<descr>INGREDIENTI: pesca, zucchero grezzo di canna
+			</descr>
+			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di prodotto
+Valore energetico: 195 Kcal / 827 Kj
+Proteine: 1,1 g
+Carboidrati: 47,3 g
+Grassi: 0,1 g
+
+			
+			</infoNutrizionali>
+			<esigenze>
+				<esigenza>vegetariani</esigenza>
+				<esigenza>vegani</esigenza>
 			</esigenze>
 		</prodotto>
 	</prodotti>
@@ -657,7 +1602,7 @@
 		</foto>
 		<foto>
 			<prodotto>Fusilli</prodotto>
-			<contenuto>images/prodotti/risoPasta/fusilli.png</contenuto>
+			<contenuto>images/prodotti/risoPasta/risoPasta/fusilli.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Fusilli integrali</prodotto>
@@ -727,6 +1672,176 @@
 		<foto>
 			<prodotto>Bevanda di arancia, carota e limone</prodotto>
 			<contenuto>images/prodotti/bevande/bevanda arancia, carota e limone.png</contenuto>
+		</foto>
+
+		<foto>
+			<prodotto>Frollini al kamut</prodotto>
+			<contenuto>images/prodotti/cerealiColazione/frollini al kamut.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Oswego</prodotto>
+			<contenuto>images/prodotti/cerealiColazione/oswego.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Biscotti al cacao</prodotto>
+			<contenuto>images/prodotti/cerealiColazione/biscotti al cacao.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Corn flakes</prodotto>
+			<contenuto>images/prodotti/cerealiColazione/corn flakes.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Muesli alla frutta</prodotto>
+			<contenuto>images/prodotti/cerealiColazione/muesli alla frutta.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Biscotti secchi assortiti</prodotto>
+			<contenuto>images/prodotti/cerealiColazione/biscotti secchi assortiti.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Frollini di farro e fiocchi d'avena</prodotto>
+			<contenuto>images/prodotti/cerealiColazione/frollini di farro e fiocchi d'avena.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Muesli classico</prodotto>
+			<contenuto>images/prodotti/cerealiColazione/muesli classico.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Fette biscottate di farro</prodotto>
+			<contenuto>images/prodotti/cerealiColazione/fette biscottate di farro.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Fette biscottate di frumento</prodotto>
+			<contenuto>images/prodotti/cerealiColazione/fette biscottate di frumento.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Fette biscottate di kamut</prodotto>
+			<contenuto>images/prodotti/cerealiColazione/fette biscottate di kamut.png</contenuto>
+		</foto>
+
+		<foto>
+			<prodotto>Farina di grano tenero tipo 0</prodotto>
+			<contenuto>images/prodotti/farine/farina di grano tenero 0.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Farina di grano tenero tipo 00</prodotto>
+			<contenuto>images/prodotti/farine/farina di grano tenero 00.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Farina integrale di grano tenero</prodotto>
+			<contenuto>images/prodotti/farine/farina integrale di grano tenero.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Farina di farro integrale</prodotto>
+			<contenuto>images/prodotti/farine/farina di farro integrale.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Farina di kamut bianca</prodotto>
+			<contenuto>images/prodotti/farine/farina di kamut bianca.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Zuppa legumi e cereali</prodotto>
+			<contenuto>images/prodotti/cerealiLegumi/zuppa legumi e cereali.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Ceci secchi</prodotto>
+			<contenuto>images/prodotti/cerealiLegumi/ceci secchi.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Fagioli borlotti</prodotto>
+			<contenuto>images/prodotti/cerealiLegumi/fagioli borlotti.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Farro perlato</prodotto>
+			<contenuto>images/prodotti/cerealiLegumi/farro perlato.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Lenticchie rosse decorticate</prodotto>
+			<contenuto>images/prodotti/cerealiLegumi/lenticchie rosse decorticate.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Ceci</prodotto>
+			<contenuto>images/prodotti/cerealiLegumi/ceci.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Lenticchie piccole</prodotto>
+			<contenuto>images/prodotti/cerealiLegumi/lenticchie piccole.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Fagioli cannellini</prodotto>
+			<contenuto>images/prodotti/cerealiLegumi/fagioli cannellini.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Aceto balsamico di Modena</prodotto>
+			<contenuto>images/prodotti/condimenti/aceto balsamico di modena.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Aceto di mele</prodotto>
+			<contenuto>images/prodotti/condimenti/aceto di mele.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Olio extravergine d'oliva</prodotto>
+			<contenuto>images/prodotti/condimenti/olio extravergine d'oliva.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Olio di girasole</prodotto>
+			<contenuto>images/prodotti/condimenti/olio di girasole.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Sugo di pomodoro al basilico</prodotto>
+			<contenuto>images/prodotti/sughiPestoPassate/sugo di pomodoro al basilico.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Sugo di pomodoro alle melanzane</prodotto>
+			<contenuto>images/prodotti/sughiPestoPassate/sugo di pomodoro alle melanzane.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Polpa di pomodoro</prodotto>
+			<contenuto>images/prodotti/sughiPestoPassate/polpa di pomodoro.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Passata di pomodoro</prodotto>
+			<contenuto>images/prodotti/sughiPestoPassate/passata di pomodoro.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Pomodori pelati</prodotto>
+			<contenuto>images/prodotti/sughiPestoPassate/pomodori pelati.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Pesto</prodotto>
+			<contenuto>images/prodotti/sughiPestoPassate/pesto.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Composta di mirtilli</prodotto>
+			<contenuto>images/prodotti/marmellateComposte/composta di mirtilli.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Composta di pesca</prodotto>
+			<contenuto>images/prodotti/marmellateComposte/composta di pesca.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Composta di albicocca</prodotto>
+			<contenuto>images/prodotti/marmellateComposte/composta di albicocca.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Confettura extra di albicocca</prodotto>
+			<contenuto>images/prodotti/marmellateComposte/confettura extra di albicocca.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Confettura extra di ciliegia</prodotto>
+			<contenuto>images/prodotti/marmellateComposte/confettura extra di ciliegia.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Confettura extra di fragola</prodotto>
+			<contenuto>images/prodotti/marmellateComposte/confettura extra di fragola.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Confettura extra di mirtilli</prodotto>
+			<contenuto>images/prodotti/marmellateComposte/confettura extra di mirtilli.png</contenuto>
+		</foto>
+		<foto>
+			<prodotto>Confettura extra di pesca</prodotto>
+			<contenuto>images/prodotti/marmellateComposte/confettura extra di pesca.png</contenuto>
 		</foto>
 	</fotoProdotti>
 </database>

@@ -182,7 +182,7 @@
 				Grassi: 1,9 g
       		</infoNutrizionali>
 			<esigenze>
-				<esigenza>vegetariali</esigenza>
+				<esigenza>vegetariani</esigenza>
 				<esigenza>celiaci</esigenza>
 			</esigenze>
 		</prodotto>
@@ -258,7 +258,6 @@
 			</infoNutrizionali>
 			<esigenze>
 				<esigenza>vegetariani</esigenza>
-				<esigenza></esigenza>
 			</esigenze>
 		</prodotto>
 		<prodotto>
@@ -753,7 +752,7 @@
 			<tipo>cereali e prima colazione</tipo>
 			<descr>Ingredienti: farina di frumento (66,4%), zucchero di canna,
 				olio extra vergine di oliva (7,3%), sciroppo di glucosio da mais,
-				succo d’uva concentrato, succo di mela concentrato, cruschello,
+				succo d'uva concentrato, succo di mela concentrato, cruschello,
 				miele (1%), emulsionante (lecitina di soia), agenti lievitanti
 				(carbonato acido di sodio, carbonato acido di ammonio, tartrato
 				monopotassico) sale, aromi naturali.</descr>
@@ -781,7 +780,7 @@
 			<tipo>cereali e prima colazione</tipo>
 			<descr>Ingredienti: farina di frumento (66,4%), zucchero di canna,
 				olio extra vergine di oliva (7,3%), sciroppo di glucosio da mais,
-				succo d’uva concentrato, succo di mela concentrato, cruschello,
+				succo d'uva concentrato, succo di mela concentrato, cruschello,
 				miele (1%), emulsionante (lecitina di soia), agenti lievitanti
 				(carbonato acido di sodio, carbonato acido di ammonio, tartrato
 				monopotassico) sale, aromi naturali.</descr>
@@ -803,7 +802,7 @@
 			</esigenze>
 		</prodotto>
 		<prodotto>
-			<nome>frollini di farro e fiocchi d’avena</nome>
+			<nome>Frollini di farro e fiocchi d'avena</nome>
 			<produttore>Desantis</produttore>
 			<tipo>cereali e prima colazione</tipo>
 			<descr>Ingredienti: farina di farro 52,6%, olio di palma, sciroppo di
@@ -916,14 +915,14 @@
 			</esigenze>
 		</prodotto>
 		<prodotto>
-			<nome>Farina di grano tenero tipo “0”</nome>
+			<nome>Farina di grano tenero tipo 0</nome>
 			<produttore>Desantis</produttore>
-			<tipo>cereali e prima colazione</tipo>
-			<descr>La Farina Integrale è ottenuta macinando a pietra l’intero
+			<tipo>farine</tipo>
+			<descr>La Farina Integrale è ottenuta macinando a pietra l'intero
 				chicco, compreso il germe. Aumentando progressivamente la
 				raffinazione si ottengono le farine di Tipo «0», ideale per la
 				panificazione, e Tipo «00», detta anche «fior di farina».
-				Quest’ultima è indicata per i dolci.</descr>
+				Quest'ultima è indicata per i dolci.</descr>
 			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
 				prodotto
 				Valore energetico: 360 kcal / 1528 kj
@@ -936,14 +935,14 @@
 			</esigenze>
 		</prodotto>
 		<prodotto>
-			<nome>Farina di grano tenero tipo “00”</nome>
+			<nome>Farina di grano tenero tipo 00</nome>
 			<produttore>Desantis</produttore>
 			<tipo>farine</tipo>
-			<descr>La Farina Integrale è ottenuta macinando a pietra l’intero
+			<descr>La Farina Integrale è ottenuta macinando a pietra l'intero
 				chicco, compreso il germe. Aumentando progressivamente la
 				raffinazione si ottengono le farine di Tipo «0», ideale per la
 				panificazione, e Tipo «00», detta anche «fior di farina».
-				Quest’ultima è indicata per i dolci.</descr>
+				Quest'ultima è indicata per i dolci.</descr>
 			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
 				prodotto
 				Valore energetico: 360 kcal / 1527 kj
@@ -959,11 +958,11 @@
 			<nome>Farina integrale di grano tenero</nome>
 			<produttore>Gerola</produttore>
 			<tipo>farine</tipo>
-			<descr>La Farina Integrale è ottenuta macinando a pietra l’intero
+			<descr>La Farina Integrale è ottenuta macinando a pietra l'intero
 				chicco, compreso il germe. Aumentando progressivamente la
 				raffinazione si ottengono le farine di Tipo «0», ideale per la
 				panificazione, e Tipo «00», detta anche «fior di farina».
-				Quest’ultima è indicata per i dolci.</descr>
+				Quest'ultima è indicata per i dolci.</descr>
 			<infoNutrizionali>VALORI NUTRIZIONALI - valori medi per 100 g di
 				prodotto
 				Valore energetico: 336 kcal / 1425 kj
@@ -1248,8 +1247,8 @@
 			</esigenze>
 		</prodotto>
 		<prodotto>
-			<nome></nome>
-			<produttore>Olio extravergine d’oliva</produttore>
+			<nome>Olio extravergine d'oliva</nome>
+			<produttore>Desantis</produttore>
 			<tipo>condimenti</tipo>
 			<descr>aaaa 
 			</descr>
@@ -1364,7 +1363,7 @@
 			</esigenze>
 		</prodotto>
 		<prodotto>
-			<nome>passata di pomodoro</nome>
+			<nome>Passata di pomodoro</nome>
 			<produttore>Pedrotti</produttore>
 			<tipo>sughi, pesto e passate</tipo>
 			<descr>INGREDIENTI: pomodoro
@@ -1530,7 +1529,7 @@ Grassi: 0,2 g
 			</esigenze>
 		</prodotto>
 		<prodotto>
-			<nome>confettura extra di fragola</nome>
+			<nome>Confettura extra di fragola</nome>
 			<produttore>Gerola</produttore>
 			<tipo>marmellate e composte</tipo>
 			<descr>INGREDIENTI: fragola, zucchero grezzo di canna
@@ -1595,24 +1594,19 @@ Grassi: 0,1 g
 	<fotoProdotti>
 		<foto>
 			<prodotto>Riso baldo superfino</prodotto>
-			<contenuto>images/prodotti/risoPasta/risoPasta/riso baldo
-				superfino.png</contenuto>
+			<contenuto>images/prodotti/risoPasta/riso baldo superfino.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Riso baldo superfino integrale</prodotto>
-			<contenuto>images/prodotti/risoPasta/risoPasta/riso baldo superfino
-				integrale.png
-			</contenuto>
+			<contenuto>images/prodotti/risoPasta/riso baldo superfino integrale.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Fusilli</prodotto>
-			<contenuto>images/prodotti/risoPasta/risoPasta/fusilli.png
-			</contenuto>
+			<contenuto>images/prodotti/risoPasta/risoPasta/fusilli.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Fusilli integrali</prodotto>
-			<contenuto>images/prodotti/risoPasta/fusilli integrali.png
-			</contenuto>
+			<contenuto>images/prodotti/risoPasta/fusilli integrali.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Maccheroni</prodotto>
@@ -1620,8 +1614,7 @@ Grassi: 0,1 g
 		</foto>
 		<foto>
 			<prodotto>Maccheroni integrali</prodotto>
-			<contenuto>images/prodotti/risoPasta/maccheroni integrali.png
-			</contenuto>
+			<contenuto>images/prodotti/risoPasta/maccheroni integrali.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Penne</prodotto>
@@ -1638,8 +1631,7 @@ Grassi: 0,1 g
 		</foto>
 		<foto>
 			<prodotto>Spaghetti integrali</prodotto>
-			<contenuto>images/prodotti/risoPasta/spaghetti integrali.png
-			</contenuto>
+			<contenuto>images/prodotti/risoPasta/spaghetti integrali.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Linguine</prodotto>
@@ -1647,8 +1639,7 @@ Grassi: 0,1 g
 		</foto>
 		<foto>
 			<prodotto>Linguine integrali</prodotto>
-			<contenuto>images/prodotti/risoPasta/linguine integrali.png
-			</contenuto>
+			<contenuto>images/prodotti/risoPasta/linguine integrali.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Conchiglie</prodotto>
@@ -1656,11 +1647,10 @@ Grassi: 0,1 g
 		</foto>
 		<foto>
 			<prodotto>Conchiglie integrali</prodotto>
-			<contenuto>images/prodotti/risoPasta/conchiglie integrali.png
-			</contenuto>
+			<contenuto>images/prodotti/risoPasta/conchiglie integrali.png</contenuto>
 		</foto>
 		<foto>
-			<prodotto>Succo di mel</prodotto>
+			<prodotto>Succo di mela</prodotto>
 			<contenuto>images/prodotti/bevande/succo di mela.png</contenuto>
 		</foto>
 		<foto>
@@ -1669,29 +1659,24 @@ Grassi: 0,1 g
 		</foto>
 		<foto>
 			<prodotto>Succo e polpa di albicocca</prodotto>
-			<contenuto>images/prodotti/bevande/succo e polpa albicocca.png
-			</contenuto>
+			<contenuto>images/prodotti/bevande/succo e polpa albicocca.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Succo e polpa di pera</prodotto>
-			<contenuto>images/prodotti/bevande/succo e polpa pera.png
-			</contenuto>
+			<contenuto>images/prodotti/bevande/succo e polpa pera.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Succo e polpa di pesca</prodotto>
-			<contenuto>images/prodotti/bevande/succo e polpa pesca.png
-			</contenuto>
+			<contenuto>images/prodotti/bevande/succo e polpa pesca.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Bevanda di arancia, carota e limone</prodotto>
-			<contenuto>images/prodotti/bevande/bevanda arancia, carota e
-				limone.png</contenuto>
+			<contenuto>images/prodotti/bevande/bevanda arancia, carota e limone.png</contenuto>
 		</foto>
 
 		<foto>
 			<prodotto>Frollini al kamut</prodotto>
-			<contenuto>images/prodotti/cerealiColazione/frollini al kamut.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiColazione/frollini al kamut.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Oswego</prodotto>
@@ -1699,210 +1684,164 @@ Grassi: 0,1 g
 		</foto>
 		<foto>
 			<prodotto>Biscotti al cacao</prodotto>
-			<contenuto>images/prodotti/cerealiColazione/biscotti al cacao.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiColazione/biscotti al cacao.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Corn flakes</prodotto>
-			<contenuto>images/prodotti/cerealiColazione/corn flakes.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiColazione/corn flakes.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Muesli alla frutta</prodotto>
-			<contenuto>images/prodotti/cerealiColazione/muesli alla frutta.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiColazione/muesli alla frutta.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Biscotti secchi assortiti</prodotto>
-			<contenuto>images/prodotti/cerealiColazione/biscotti secchi
-				assortiti.png</contenuto>
+			<contenuto>images/prodotti/cerealiColazione/biscotti secchi assortiti.png</contenuto>
 		</foto>
 		<foto>
-			<prodotto>Frollini di farro e fiocchi d’avena</prodotto>
-			<contenuto>images/prodotti/cerealiColazione/frollini di farro e
-				fiocchi d'avena.png</contenuto>
+			<prodotto>Frollini di farro e fiocchi d'avena</prodotto>
+			<contenuto>images/prodotti/cerealiColazione/frollini di farro e fiocchi d'avena.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Muesli classico</prodotto>
-			<contenuto>images/prodotti/cerealiColazione/muesli classico.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiColazione/muesli classico.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Fette biscottate di farro</prodotto>
-			<contenuto>images/prodotti/cerealiColazione/fette biscottate di
-				farro.png</contenuto>
+			<contenuto>images/prodotti/cerealiColazione/fette biscottate di farro.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Fette biscottate di frumento</prodotto>
-			<contenuto>images/prodotti/cerealiColazione/fette biscottate di
-				frumento.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiColazione/fette biscottate di frumento.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Fette biscottate di kamut</prodotto>
-			<contenuto>images/prodotti/cerealiColazione/fette biscottate di
-				kamut.png</contenuto>
+			<contenuto>images/prodotti/cerealiColazione/fette biscottate di kamut.png</contenuto>
 		</foto>
 
 		<foto>
-			<prodotto>Farina di grano tenero 0</prodotto>
-			<contenuto>images/prodotti/farine/farina di grano tenero 0.png
-			</contenuto>
+			<prodotto>Farina di grano tenero tipo 0</prodotto>
+			<contenuto>images/prodotti/farine/farina di grano tenero 0.png</contenuto>
 		</foto>
 		<foto>
-			<prodotto>Farina di grano tenero 00</prodotto>
-			<contenuto>images/prodotti/farine/farina di grano tenero 00.png
-			</contenuto>
+			<prodotto>Farina di grano tenero tipo 00</prodotto>
+			<contenuto>images/prodotti/farine/farina di grano tenero 00.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Farina integrale di grano tenero</prodotto>
-			<contenuto>images/prodotti/farine/farina integrale di grano
-				tenero.png</contenuto>
+			<contenuto>images/prodotti/farine/farina integrale di grano tenero.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Farina di farro integrale</prodotto>
-			<contenuto>images/prodotti/farine/farina di farro integrale.png
-			</contenuto>
+			<contenuto>images/prodotti/farine/farina di farro integrale.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Farina di kamut bianca</prodotto>
-			<contenuto>images/prodotti/farine/farina di kamut bianca.png
-			</contenuto>
+			<contenuto>images/prodotti/farine/farina di kamut bianca.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Zuppa legumi e cereali</prodotto>
-			<contenuto>images/prodotti/cerealiLegumi/zuppa legumi e cereali.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiLegumi/zuppa legumi e cereali.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Ceci secchi</prodotto>
-			<contenuto>images/prodotti/cerealiLegumi/ceci secchi.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiLegumi/ceci secchi.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Fagioli borlotti</prodotto>
-			<contenuto>images/prodotti/cerealiLegumi/fagioli borlotti.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiLegumi/fagioli borlotti.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Farro perlato</prodotto>
-			<contenuto>images/prodotti/cerealiLegumi/farro perlato.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiLegumi/farro perlato.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Lenticchie rosse decorticate</prodotto>
-			<contenuto>images/prodotti/cerealiLegumi/lenticchie rosse
-				decorticate.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiLegumi/lenticchie rosse decorticate.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Ceci</prodotto>
-			<contenuto>images/prodotti/cerealiLegumi/ceci.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiLegumi/ceci.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Lenticchie piccole</prodotto>
-			<contenuto>images/prodotti/cerealiLegumi/lenticchie piccole.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiLegumi/lenticchie piccole.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Fagioli cannellini</prodotto>
-			<contenuto>images/prodotti/cerealiLegumi/fagioli cannellini.png
-			</contenuto>
+			<contenuto>images/prodotti/cerealiLegumi/fagioli cannellini.png</contenuto>
 		</foto>
 		<foto>
-			<prodotto>aceto balsamico di Modena</prodotto>
-			<contenuto>images/prodotti/condimenti/aceto balsamico di modena.png
-			</contenuto>
+			<prodotto>Aceto balsamico di Modena</prodotto>
+			<contenuto>images/prodotti/condimenti/aceto balsamico di modena.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Aceto di mele</prodotto>
-			<contenuto>images/prodotti/condimenti/aceto di mele.png
-			</contenuto>
+			<contenuto>images/prodotti/condimenti/aceto di mele.png</contenuto>
 		</foto>
 		<foto>
-			<prodotto></prodotto>
-			<contenuto>images/prodotti/condimenti/olio extravergine d'oliva.png
-			</contenuto>
+			<prodotto>Olio extravergine d'oliva</prodotto>
+			<contenuto>images/prodotti/condimenti/olio extravergine d'oliva.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Olio di girasole</prodotto>
-			<contenuto>images/prodotti/condimenti/olio di girasole.png
-			</contenuto>
+			<contenuto>images/prodotti/condimenti/olio di girasole.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Sugo di pomodoro al basilico</prodotto>
-			<contenuto>images/prodotti/sughiPestoPassate/sugo di pomodoro al
-				basilico.png
-			</contenuto>
+			<contenuto>images/prodotti/sughiPestoPassate/sugo di pomodoro al basilico.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Sugo di pomodoro alle melanzane</prodotto>
-			<contenuto>images/prodotti/sughiPestoPassate/sugo di pomodoro alle
-				melanzane.png
-			</contenuto>
+			<contenuto>images/prodotti/sughiPestoPassate/sugo di pomodoro alle melanzane.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Polpa di pomodoro</prodotto>
-			<contenuto>images/prodotti/sughiPestoPassate/polpa di pomodoro.png
-			</contenuto>
+			<contenuto>images/prodotti/sughiPestoPassate/polpa di pomodoro.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Passata di pomodoro</prodotto>
-			<contenuto>images/prodotti/sughiPestoPassate/passata di pomodoro.png
-			</contenuto>
+			<contenuto>images/prodotti/sughiPestoPassate/passata di pomodoro.png</contenuto>
 		</foto>
 		<foto>
-			<prodotto>Pomodori Pelati</prodotto>
-			<contenuto>images/prodotti/sughiPestoPassate/pomodori pelati.png
-			</contenuto>
+			<prodotto>Pomodori pelati</prodotto>
+			<contenuto>images/prodotti/sughiPestoPassate/pomodori pelati.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Pesto</prodotto>
-			<contenuto>images/prodotti/sughiPestoPassate/pesto.png
-			</contenuto>
+			<contenuto>images/prodotti/sughiPestoPassate/pesto.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Composta di mirtilli</prodotto>
-			<contenuto>images/prodotti/marmellateComposte/composta di
-				mirtilli.png
-			</contenuto>
+			<contenuto>images/prodotti/marmellateComposte/composta di mirtilli.png</contenuto>
 		</foto>
 		<foto>
-			<prodotto>composta di pesca</prodotto>
-			<contenuto>images/prodotti/marmellateComposte/composta di pesca.png
-			</contenuto>
+			<prodotto>Composta di pesca</prodotto>
+			<contenuto>images/prodotti/marmellateComposte/composta di pesca.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Composta di albicocca</prodotto>
-			<contenuto>images/prodotti/marmellateComposte/composta di
-				albicocca.png
-			</contenuto>
+			<contenuto>images/prodotti/marmellateComposte/composta di albicocca.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Confettura extra di albicocca</prodotto>
-			<contenuto>images/prodotti/marmellateComposte/confettura extra di albicocca.png
-			</contenuto>
+			<contenuto>images/prodotti/marmellateComposte/confettura extra di albicocca.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Confettura extra di ciliegia</prodotto>
-			<contenuto>images/prodotti/marmellateComposte/confettura extra di ciliegia.png
-			</contenuto>
+			<contenuto>images/prodotti/marmellateComposte/confettura extra di ciliegia.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Confettura extra di fragola</prodotto>
-			<contenuto>images/prodotti/marmellateComposte/confettura extra di fragola.png
-			</contenuto>
+			<contenuto>images/prodotti/marmellateComposte/confettura extra di fragola.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Confettura extra di mirtilli</prodotto>
-			<contenuto>images/prodotti/marmellateComposte/confettura extra di mirtilli.png
-			</contenuto>
+			<contenuto>images/prodotti/marmellateComposte/confettura extra di mirtilli.png</contenuto>
 		</foto>
 		<foto>
 			<prodotto>Confettura extra di pesca</prodotto>
-			<contenuto>images/prodotti/marmellateComposte/confettura extra di pesca.png
-			</contenuto>
+			<contenuto>images/prodotti/marmellateComposte/confettura extra di pesca.png</contenuto>
 		</foto>
 	</fotoProdotti>
 </database>
