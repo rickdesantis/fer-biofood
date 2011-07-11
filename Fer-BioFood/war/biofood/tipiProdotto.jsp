@@ -5,7 +5,10 @@
 <%@page import="org.slim3.datastore.Datastore" %>
 <%@page import="it.aip.mcdonald.meta.TipoProdottoMeta" %>
 <%@page import="it.aip.mcdonald.model.TipoProdotto" %>
-<%@page import="java.util.List" %>	
+<%@page import="it.aip.mcdonald.meta.ProdottoMeta" %>
+<%@page import="it.aip.mcdonald.model.Prodotto" %>
+<%@page import="java.util.List" %>
+<%@page import="java.util.Enumeration" %>	
 
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -29,18 +32,7 @@
 <body>
 <div id="page-container">
   <div id="header"><h1></h1></div>
-  <div  id="landmarks">
-	<ul >
-        	<li ><a href="produttori">Produttori</a></li>
-            <li ><a href="tipiProdotto">Prodotti</a></li>
-            <li ><a href="#">Ricette</a></li>
-            <li><a href="esigenze">Esigenze Particolari</a></li>
-            <li ><a href="offerte">Offerte</a></li>
-            <li ><a href="#">Come Acquistare</a></li>
-            <li ><a href="#">Il Consorzio</a></li>
-            <li><a href="#">Cibo Bio</a></li> 
-        </ul>
-  </div>
+<%@ include file="landmarks.html" %>
 <div id="sidebar">
    	  <div class="padding">
         
@@ -55,11 +47,15 @@
   <img id= "toprightimage" src="images/cc-carne.gif" width="256" height="200" alt="carnazza" />
 	<div class="padding"><h2>Prodotti</h2>
 	  <ul id="productList" >
+	  <%
+	  	for (Enumeration<String> e = request.getParameterNames(); e.hasMoreElements();)
+	  		out.println(e.nextElement() + "<br>");
+	  %>
         	<%
 				TipoProdottoMeta e = TipoProdottoMeta.get();
 				List<TipoProdotto> list = Datastore.query(e).asList();
-				for ( TipoProdotto u: list) {
-					out.println( "<li><a href=&quot#&quot>" + u.getNome() + "</a></li>");
+				for (TipoProdotto u : list) {
+					out.println( "<li><a href=\"tipoProdotto?n=" + u.getNome().replaceAll(" ", "+") + "\">" + u.getNome() + " (" + request.getParameter(u.getNome() + "_count") + " elementi)</a></li>");
 				}
 			%>
     	</ul>

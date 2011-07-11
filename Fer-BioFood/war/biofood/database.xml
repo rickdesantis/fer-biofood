@@ -79,6 +79,7 @@
       		<descr>È un allevatore di mucche, galline, etc.</descr>
       		<indirizzo>via delle Leghe 16, Milano (MI)</indirizzo>
       		<mail>effetti@gmail.com</mail>
+      		<telefono>+393481111000</telefono>
       		<password>1234</password>
     	</produttore>
 		<produttore>
@@ -87,6 +88,7 @@
 			<descr>È l'agricoltore più in del momento, con le sue coltivazioni di marijuana, etc.</descr>
       		<indirizzo>piazza Duomo, Milano (MI)</indirizzo>
       		<mail>filippo.gerola@gmail.com</mail>
+      		<telefono>+393481111000</telefono>
       		<password>1234</password>
     	</produttore>
     	<produttore>
@@ -95,6 +97,7 @@
       		<descr>Alleva da tanti anni le stesse galline, ma, si sa, gallina vecchia fa buon brodo!</descr>
       		<indirizzo>piazza Leonardo da Vinci 32, Milano (MI)</indirizzo>
       		<mail>edobounce@gmail.com</mail>
+      		<telefono>+393481111000</telefono>
       		<password>1234</password>
     	</produttore>
   	</produttori>

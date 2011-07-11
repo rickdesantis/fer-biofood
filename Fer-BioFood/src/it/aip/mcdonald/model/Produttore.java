@@ -27,6 +27,16 @@ public class Produttore implements Serializable {
     
     private String indirizzo;
     
+    private String telefono;
+    
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
     private String password;
     
     private ModelRef<TipoProduttore> tipoProduttoreRef = new ModelRef<TipoProduttore>(TipoProduttore.class);
