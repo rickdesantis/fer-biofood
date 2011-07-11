@@ -26,85 +26,97 @@ import javax.xml.parsers.*;
 import org.xml.sax.*;
 
 public class ManageWorld {
-    public void wipeAll() {
-        {
-            TipoProduttoreMeta e = TipoProduttoreMeta.get();
-            List<TipoProduttore> list = Datastore.query(e).asList();
-            for (TipoProduttore u : list) {
-                Transaction tx = Datastore.beginTransaction();
-                Datastore.delete(u.getKey());
-                tx.commit();
-            }
-        }
-        {
-            TipoProdottoMeta e = TipoProdottoMeta.get();
-            List<TipoProdotto> list = Datastore.query(e).asList();
-            for (TipoProdotto u : list) {
-                Transaction tx = Datastore.beginTransaction();
-                Datastore.delete(u.getKey());
-                tx.commit();
-            }
-        }
-        {
-            EsigenzaMeta e = EsigenzaMeta.get();
-            List<Esigenza> list = Datastore.query(e).asList();
-            for (Esigenza u : list) {
-                Transaction tx = Datastore.beginTransaction();
-                Datastore.delete(u.getKey());
-                tx.commit();
-            }
-            BuonoPerEsigenzaMeta f = BuonoPerEsigenzaMeta.get();
-            List<BuonoPerEsigenza> list2 = Datastore.query(f).asList();
-            for (BuonoPerEsigenza u : list2) {
-                Transaction tx = Datastore.beginTransaction();
-                Datastore.delete(u.getKey());
-                tx.commit();
-            }
-        }
-        {
-            ProduttoreMeta e = ProduttoreMeta.get();
-            List<Produttore> list = Datastore.query(e).asList();
-            for (Produttore u : list) {
-                Transaction tx = Datastore.beginTransaction();
-                Datastore.delete(u.getKey());
-                tx.commit();
-            }
-        }
-        {
-            ProdottoMeta e = ProdottoMeta.get();
-            List<Prodotto> list = Datastore.query(e).asList();
-            for (Prodotto u : list) {
-                Transaction tx = Datastore.beginTransaction();
-                Datastore.delete(u.getKey());
-                tx.commit();
-            }
-            OffertaMeta f = OffertaMeta.get();
-            List<Offerta> list2 = Datastore.query(f).asList();
-            for (Offerta u : list2) {
-                Transaction tx = Datastore.beginTransaction();
-                Datastore.delete(u.getKey());
-                tx.commit();
-            }
-        }
-        {
-            FotoProdottoMeta e = FotoProdottoMeta.get();
-            List<FotoProdotto> list = Datastore.query(e).asList();
-            for (FotoProdotto u : list) {
-                Transaction tx = Datastore.beginTransaction();
-                Datastore.delete(u.getKey());
-                tx.commit();
-            }
-        }
-        {
-            FotoProduttoreMeta e = FotoProduttoreMeta.get();
-            List<FotoProduttore> list = Datastore.query(e).asList();
-            for (FotoProduttore u : list) {
-                Transaction tx = Datastore.beginTransaction();
-                Datastore.delete(u.getKey());
-                tx.commit();
-            }
+    public void wipeTipoProduttore() {
+        TipoProduttoreMeta e = TipoProduttoreMeta.get();
+        List<TipoProduttore> list = Datastore.query(e).asList();
+        for (TipoProduttore u : list) {
+            Transaction tx = Datastore.beginTransaction();
+            Datastore.delete(u.getKey());
+            tx.commit();
         }
     }
+    public void wipeTipoProdotto() {
+        TipoProdottoMeta e = TipoProdottoMeta.get();
+        List<TipoProdotto> list = Datastore.query(e).asList();
+        for (TipoProdotto u : list) {
+            Transaction tx = Datastore.beginTransaction();
+            Datastore.delete(u.getKey());
+            tx.commit();
+        }
+    }
+    public void wipeEsigenza() {
+        EsigenzaMeta e = EsigenzaMeta.get();
+        List<Esigenza> list = Datastore.query(e).asList();
+        for (Esigenza u : list) {
+            Transaction tx = Datastore.beginTransaction();
+            Datastore.delete(u.getKey());
+            tx.commit();
+        }
+        
+        BuonoPerEsigenzaMeta f = BuonoPerEsigenzaMeta.get();
+        List<BuonoPerEsigenza> list2 = Datastore.query(f).asList();
+        for (BuonoPerEsigenza u : list2) {
+            Transaction tx = Datastore.beginTransaction();
+            Datastore.delete(u.getKey());
+            tx.commit();
+        }
+    }
+    public void wipeProduttore() {
+        ProduttoreMeta e = ProduttoreMeta.get();
+        List<Produttore> list = Datastore.query(e).asList();
+        for (Produttore u : list) {
+            Transaction tx = Datastore.beginTransaction();
+            Datastore.delete(u.getKey());
+            tx.commit();
+        }
+    }
+    public void wipeProdotto() {
+        ProdottoMeta e = ProdottoMeta.get();
+        List<Prodotto> list = Datastore.query(e).asList();
+        for (Prodotto u : list) {
+            Transaction tx = Datastore.beginTransaction();
+            Datastore.delete(u.getKey());
+            tx.commit();
+        }
+    }
+    public void wipeOfferta() {
+        OffertaMeta f = OffertaMeta.get();
+        List<Offerta> list2 = Datastore.query(f).asList();
+        for (Offerta u : list2) {
+            Transaction tx = Datastore.beginTransaction();
+            Datastore.delete(u.getKey());
+            tx.commit();
+        }
+    }
+    public void wipeFotoProdotto() {
+        FotoProdottoMeta e = FotoProdottoMeta.get();
+        List<FotoProdotto> list = Datastore.query(e).asList();
+        for (FotoProdotto u : list) {
+            Transaction tx = Datastore.beginTransaction();
+            Datastore.delete(u.getKey());
+            tx.commit();
+        }
+    }
+    public void wipeFotoProduttore() {
+        FotoProduttoreMeta e = FotoProduttoreMeta.get();
+        List<FotoProduttore> list = Datastore.query(e).asList();
+        for (FotoProduttore u : list) {
+            Transaction tx = Datastore.beginTransaction();
+            Datastore.delete(u.getKey());
+            tx.commit();
+        }
+    }
+    public void wipeAll() {
+        wipeTipoProduttore();
+        wipeTipoProdotto();
+        wipeEsigenza();
+        wipeProduttore();
+        wipeProdotto();
+        wipeOfferta();
+        wipeFotoProdotto();
+        wipeFotoProduttore();
+    }
+    
     public TipoProduttore aggiungiTipoProduttore(Map<String, Object> param) {
         TipoProduttore tprod = new TipoProduttore();
         BeanUtil.copy(param, tprod);
@@ -217,7 +229,7 @@ public class ManageWorld {
         return fot;
     }
     
-    public void initAllFromXml() throws ParserConfigurationException, SAXException, IOException {
+    public void initTipoProduttore() throws ParserConfigurationException, SAXException, IOException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document doc = builder.parse(new File("WEB-INF/database.xml"));
@@ -227,41 +239,93 @@ public class ManageWorld {
             for (Map<String, Object> m : maps)
                 aggiungiTipoProduttore(m);
         }
+    }
+    public void initTipoProdotto() throws ParserConfigurationException, SAXException, IOException {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document doc = builder.parse(new File("WEB-INF/database.xml"));
+        
         {
             List<Map<String, Object>> maps = retrieveTagByName(doc, "tipoProdotto", "tipiProdotti");
             for (Map<String, Object> m : maps)
                 aggiungiTipoProdotto(m);
         }
+    }
+    public void initEsigenza() throws ParserConfigurationException, SAXException, IOException {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document doc = builder.parse(new File("WEB-INF/database.xml"));
+
         {
             List<Map<String, Object>> maps = retrieveTagByName(doc, "esigenza", "listaEsigenze");
             for (Map<String, Object> m : maps)
                 aggiungiEsigenza(m);
         }
+    }
+    public void initProduttore() throws ParserConfigurationException, SAXException, IOException {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document doc = builder.parse(new File("WEB-INF/database.xml"));
+
         {
             List<Map<String, Object>> maps = retrieveTagByName(doc, "produttore", "produttori");
             for (Map<String, Object> m : maps)
                 aggiungiProduttore(m);
         }
+    }
+    public void initProdotto() throws ParserConfigurationException, SAXException, IOException {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document doc = builder.parse(new File("WEB-INF/database.xml"));
+
         {
             List<Map<String, Object>> maps = retrieveTagByName(doc, "prodotto", "prodotti");
             for (Map<String, Object> m : maps)
                 aggiungiProdotto(m);
         }
+    }
+    public void initOfferta() throws ParserConfigurationException, SAXException, IOException {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document doc = builder.parse(new File("WEB-INF/database.xml"));
+
         {
             List<Map<String, Object>> maps = retrieveTagByName(doc, "offerta", "offerte");
             for (Map<String, Object> m : maps)
                 aggiungiOfferta(m);
         }
+    }
+    public void initFotoProdotto() throws ParserConfigurationException, SAXException, IOException {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document doc = builder.parse(new File("WEB-INF/database.xml"));
+
         {
             List<Map<String, Object>> maps = retrieveTagByName(doc, "foto", "fotoProdotti");
             for (Map<String, Object> m : maps)
                 aggiungiFotoProdotto(m);
         }
+    }
+    public void initFotoProduttori() throws ParserConfigurationException, SAXException, IOException {
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document doc = builder.parse(new File("WEB-INF/database.xml"));
+
         {
             List<Map<String, Object>> maps = retrieveTagByName(doc, "foto", "fotoProduttori");
             for (Map<String, Object> m : maps)
                 aggiungiFotoProduttore(m);
         }
+    }
+    public void initAllFromXml() throws ParserConfigurationException, SAXException, IOException {
+        initTipoProduttore();
+        initTipoProdotto();
+        initEsigenza();
+        initProduttore();
+        initProdotto();
+        initOfferta();
+        initFotoProdotto();
+        initFotoProduttori();
     }
     
     private List<Map<String, Object>> retrieveTagByName(Document doc, String s, String parent) {
