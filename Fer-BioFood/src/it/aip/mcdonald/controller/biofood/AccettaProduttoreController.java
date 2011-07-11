@@ -12,6 +12,6 @@ public class AccettaProduttoreController extends Controller {
     @Override
     public Navigation run() throws Exception {
         world.aggiungiProduttore(new RequestMap(request));
-        return redirect("index.jsp");
+        return redirect("index");
     }
 }
