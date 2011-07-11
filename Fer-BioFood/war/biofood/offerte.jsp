@@ -36,8 +36,8 @@
 <div id="sidebar">
    	  <div class="padding">
        <ul id="transLink" >
-       		<li ><a href="#">Prodotti</a></li>
-        	<li ><a href="#">Esigenze speciali</a></li>
+       		<li ><a href="tipiProdotto">Prodotti</a></li>
+        	<li ><a href="esigenze">Esigenze speciali</a></li>
             
     	</ul> 
       </div>

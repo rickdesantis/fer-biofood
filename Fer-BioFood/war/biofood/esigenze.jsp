@@ -33,7 +33,7 @@
 <div id="sidebar">
    	  <div class="padding">
         <ul id="transLink" >
-        	<li ><a href="offerte.jsp">Offerte</a></li>
+        	<li ><a href="offerte">Offerte</a></li>
             
     	</ul> 
       </div>
