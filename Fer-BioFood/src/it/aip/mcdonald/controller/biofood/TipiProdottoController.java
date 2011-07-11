@@ -21,15 +21,14 @@ public class TipiProdottoController extends Controller {
         List<Prodotto> lp = Datastore.query(pm).asList();
         for (TipoProdotto u : list) {
             int nprod = 0;
-            for (int i = 0; i < lp.size(); ++i) {
-                if (lp.get(i).getTipoProdottoRef().getModel().getNome() == u.getNome()) {
+            for (Prodotto p : lp) {
+                if (p.getTipoProdottoRef().getModel().getNome().equals(u.getNome())) {
                     ++nprod;
-                    lp.remove(i--);
                 }
+                
             }
-            requestScope(u.getNome() + "_count", nprod);
+            request.setAttribute(u.getNome() + "_count", nprod + "");
         }
-        
         return forward("tipiProdotto.jsp");
     }
 }

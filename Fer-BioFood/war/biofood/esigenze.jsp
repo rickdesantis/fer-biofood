@@ -47,7 +47,7 @@
 				EsigenzaMeta e = EsigenzaMeta.get();
 				List<Esigenza> list = Datastore.query(e).asList();
 				for ( Esigenza u: list) {
-					out.println( "<li><a href=&quot#&quot>" + u.getNome() + "</a></li>");
+					out.println( "<li><a href=\"esigenza?n=" + u.getNome().replaceAll(" ", "+") + "\">" + u.getNome() + "</a></li>");
 				}
 			%>
     	</ul>

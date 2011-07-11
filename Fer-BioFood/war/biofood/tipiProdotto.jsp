@@ -7,8 +7,7 @@
 <%@page import="it.aip.mcdonald.model.TipoProdotto" %>
 <%@page import="it.aip.mcdonald.meta.ProdottoMeta" %>
 <%@page import="it.aip.mcdonald.model.Prodotto" %>
-<%@page import="java.util.List" %>
-<%@page import="java.util.Enumeration" %>	
+<%@page import="java.util.List" %>	
 
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -37,7 +36,7 @@
    	  <div class="padding">
         
        <ul id="transLink" >
-        	<li ><a href="#">Offerte</a></li>
+        	<li ><a href="offerte">Offerte</a></li>
             
     	</ul> 
       </div>
@@ -47,15 +46,11 @@
   <img id= "toprightimage" src="images/cc-carne.gif" width="256" height="200" alt="carnazza" />
 	<div class="padding"><h2>Prodotti</h2>
 	  <ul id="productList" >
-	  <%
-	  	for (Enumeration<String> e = request.getParameterNames(); e.hasMoreElements();)
-	  		out.println(e.nextElement() + "<br>");
-	  %>
         	<%
 				TipoProdottoMeta e = TipoProdottoMeta.get();
 				List<TipoProdotto> list = Datastore.query(e).asList();
 				for (TipoProdotto u : list) {
-					out.println( "<li><a href=\"tipoProdotto?n=" + u.getNome().replaceAll(" ", "+") + "\">" + u.getNome() + " (" + request.getParameter(u.getNome() + "_count") + " elementi)</a></li>");
+					out.println( "<li><a href=\"tipoProdotto?n=" + u.getNome().replaceAll(" ", "+") + "\">" + u.getNome() + " (" + request.getAttribute(u.getNome() + "_count") + " elementi)</a></li>");
 				}
 			%>
     	</ul>

@@ -49,23 +49,12 @@
 	  <h2>Offerte</h2>
 		<ul id="offertList" >
         	<%
-				// OffertaMeta e = OffertaMeta.get();
-				// List<Offerta> list = Datastore.query(e).asList();
-				// for ( Offerta u: list) {
-				// Prodotto p = u.getProdottoRef().getModel();
-				//	out.println( "<li><a href=\"#\">"  +  p.getNome() + "</a></li>");
-				//}
-				
 				List<String> pr = (List<String>) request.getAttribute("prodotti");
 				List<Date> scadenze = (List<Date>) request.getAttribute("scadenze");
 				
 				for (int i = 0; i < pr.size(); ++i) {
-					out.println("<li><a href=\"#\">" + pr.get(i) + " (fino al " + scadenze.get(i) + ")</a></li>");
+					out.println("<li><a href=\"prodotto?n=" + pr.get(i).replace(" ", "+") + "\">" + pr.get(i) + " (fino al " + scadenze.get(i) + ")</a></li>");
 				}
-				
-				/*for (Prodotto p : prodotti) {
-					out.println("<li><a href=\"#\">"  +  p.getNome() + "</a></li>");
-				}*/
 			%>
     	</ul>
 </div>

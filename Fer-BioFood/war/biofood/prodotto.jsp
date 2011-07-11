@@ -2,6 +2,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%@taglib prefix="f" uri="http://www.slim3.org/functions"%>
+<%@page import="java.util.List" %>
 
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -29,13 +30,12 @@
 <div id="sidebar">
    	  <div class="padding">
       	<ul id="structLink" >
-        	<li ><a href="#">Descrizione</a></li>
-            <li ><a href="#">Informazioni Nutrizionali</a></li>
     	</ul>
         
        <ul id="transLink" >
-        	<li ><a href="#">Produttore</a></li>
-            <li ><a href="#">Ricette</a></li>
+       		<li><a href="tipoProdotto?n=${tipo}">Prodotti dello stesso tipo</a></li>
+        	<li><a href="produttore?n=${produttore}">Produttore</a></li>
+            <li><a href="#">Ricette</a></li>
             
     	</ul> 
       </div>
@@ -43,8 +43,22 @@
   <div id="content">
   
   <img id= "toprightimage" src="images/cc-carne.gif" width="256" height="200" alt="carnazza" />
-	<div class="padding"><h2></h2>
-	  <p></p>
+	<div class="padding"><h2>${prodotto.nome}</h2>
+	<p>${f:h(prodotto.descr)}</p>
+	<h4>Informazioni nutrizionali</h4>
+	<p>${f:h(prodotto.infoNutrizionali)}</p>
+	<%
+		List<String> esigenze = (List<String>) request.getAttribute("esigenze");
+		if (esigenze.size() > 0) {
+	%>
+	<h4>Buono per le seguenti esigenze</h4>
+	<ul>
+	<%
+		for (String s : esigenze) {
+			%> <li><a href="esigenza?n=<%= s.replaceAll(" ", "+") %>"><%= s %></a></li> <%
+		} %>
+	</ul>
+	<% } %>
 </div>
   </div>
   <div id="footer"></div>

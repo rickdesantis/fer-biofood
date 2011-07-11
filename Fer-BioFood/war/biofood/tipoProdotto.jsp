@@ -2,9 +2,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%@taglib prefix="f" uri="http://www.slim3.org/functions"%>
-<%@page import="it.aip.mcdonald.model.Produttore" %>
-<%@page import="org.slim3.datastore.Datastore" %>
-<%@page import="it.aip.mcdonald.meta.ProduttoreMeta" %>
+<%@page import="java.util.List" %>
 
 	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -31,25 +29,35 @@
 <%@ include file="landmarks.html" %>
 <div id="sidebar">
    	  <div class="padding">
-      	<ul id="structLink" >
-    	</ul>
         
        <ul id="transLink" >
-        	<li ><a href="prodottiPerProduttore?n=${produttore.nome}">Prodotti</a></li>
+        	<li ><a href="tipiProdotto">Prodotti per tipo</a></li>
+            
     	</ul> 
       </div>
   </div>
   <div id="content">
+  
   <img id= "toprightimage" src="images/cc-carne.gif" width="256" height="200" alt="carnazza" />
-	<div class="padding"><h2>${produttore.nome}</h2>
-	  <p>${f:h(produttore.descr)}</p>
-	  <h4>Come contattarci</h4>
-	  <ul>
-	  	<li>Email: <a href="mailto:${produttore.mail}">${produttore.mail}</a></li>
-	  	<li>Telefono: ${produttore.telefono}</li>
-	  	<li>Indirizzo: ${produttore.indirizzo}</li> 
-	  	<img src="${map}" />
-	  </ul>
+	<div class="padding"><h2>Tipo prodotti: ${n}</h2>
+		<%
+			List<String> pr = (List<String>) request.getAttribute("prodotti");
+			if (pr.size() > 0) {
+		%>
+		<ul id="productList" >
+        	<%
+				
+				
+				for (int i = 0; i < pr.size(); ++i) {
+					out.println("<li><a href=\"prodotto?n=" + pr.get(i).replace(" ", "+") + "\">" + pr.get(i) + "</a></li>");
+				}
+			%>
+    	</ul>
+    	<%
+    		} else {
+    			out.println("<p>Nessun elemento trovato!</p>");
+    		}
+    	%>
 </div>
   </div>
   <div id="footer"></div>
