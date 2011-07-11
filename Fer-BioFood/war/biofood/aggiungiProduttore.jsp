@@ -41,7 +41,8 @@
 <ul>
 	<li> Nome:<input name="nome" type="text"> </li> 
     <li>Descrizione: <textarea name="descr" cols="" rows=""></textarea> </li> 
-     <li>email: <input name="mail" type="text"> </li> 
+     <li>email: <input name="mail" type="text"> </li>
+     <li>telefono: <input name="telefono" type="text"> </li>  
      <li>indirizzo: <input name="indirizzo" type="text"> </li> 
      <li>password: <input name="password" type="text"> </li> 
      <li>verifica password : <input name="verifica" type="text"> </li> 

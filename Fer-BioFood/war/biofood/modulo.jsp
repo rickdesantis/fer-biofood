@@ -8,7 +8,7 @@
 <html>
 <head>
 	    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
-	    <title>CompanyName - PageName</title>
+	    <title>BioFood</title>
 	    <meta http-equiv="Content-Language" content="en-us" />
 	     
 	    <meta http-equiv="imagetoolbar" content="no" />
@@ -29,7 +29,7 @@
 <div id="sidebar">
    	  <div class="padding">
       	<ul id="structLink" >
-        	<li ><a href="infoSerizio">Come acquistare</a></li>
+        	<li ><a href="infoServizio">Come acquistare</a></li>
             <li ><a href="#">Modulo acquisti</a></li>
     	</ul>
       </div>
