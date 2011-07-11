@@ -40,6 +40,10 @@
       </div>
   </div>
   <div id="content">
+  <%
+  	if (request.getAttribute("foto") != null) { %>
+  <img id= "toprightimage" src="${foto}" alt="${produttore.nome}" />
+  <% } %>
 	<div class="padding"><h2>${produttore.nome}</h2>
 	  <p>${f:h(produttore.descr)}</p>
 	  <h4>Come contattarci</h4>

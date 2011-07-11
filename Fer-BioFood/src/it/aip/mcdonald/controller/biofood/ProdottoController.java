@@ -33,7 +33,6 @@ public class ProdottoController extends Controller {
                 esigenze.add(b.getEsigenzaRef().getModel().getNome());
         }
         
-        // requestScope("foto", "images/cc-carne.gif");
         FotoProdottoMeta fp = FotoProdottoMeta.get();
         List<FotoProdotto> tmp3 = Datastore.query(fp).asList();
         for (FotoProdotto foto : tmp3) {

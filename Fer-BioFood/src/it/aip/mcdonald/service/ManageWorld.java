@@ -85,7 +85,6 @@ public class ManageWorld {
                 tx.commit();
             }
         }
-
         {
             FotoProdottoMeta e = FotoProdottoMeta.get();
             List<FotoProdotto> list = Datastore.query(e).asList();
@@ -95,7 +94,15 @@ public class ManageWorld {
                 tx.commit();
             }
         }
-        
+        {
+            FotoProduttoreMeta e = FotoProduttoreMeta.get();
+            List<FotoProduttore> list = Datastore.query(e).asList();
+            for (FotoProduttore u : list) {
+                Transaction tx = Datastore.beginTransaction();
+                Datastore.delete(u.getKey());
+                tx.commit();
+            }
+        }
     }
     public TipoProduttore aggiungiTipoProduttore(Map<String, Object> param) {
         TipoProduttore tprod = new TipoProduttore();
@@ -182,12 +189,25 @@ public class ManageWorld {
         tx.commit();
         return of;
     }
-    public FotoProdotto aggiungiFoto(Map<String, Object> param) {
+    public FotoProdotto aggiungiFotoProdotto(Map<String, Object> param) {
         FotoProdotto fot = new FotoProdotto();
         {
             ProdottoMeta e = ProdottoMeta.get();
             Prodotto tmp = Datastore.query(e).filter(e.nome.equal((String)param.get("prodotto"))).asSingle();
             fot.getProdottoRef().setModel(tmp);
+        }
+        fot.setContenuto((String)param.get("contenuto"));
+        Transaction tx = Datastore.beginTransaction();
+        Datastore.put(fot);
+        tx.commit();
+        return fot;
+    }
+    public FotoProduttore aggiungiFotoProduttore(Map<String, Object> param) {
+        FotoProduttore fot = new FotoProduttore();
+        {
+            ProduttoreMeta e = ProduttoreMeta.get();
+            Produttore tmp = Datastore.query(e).filter(e.nome.equal((String)param.get("produttore"))).asSingle();
+            fot.getProduttoreRef().setModel(tmp);
         }
         fot.setContenuto((String)param.get("contenuto"));
         Transaction tx = Datastore.beginTransaction();
@@ -234,7 +254,12 @@ public class ManageWorld {
         {
             List<Map<String, Object>> maps = retrieveTagByName(doc, "foto", "fotoProdotti");
             for (Map<String, Object> m : maps)
-                aggiungiFoto(m);
+                aggiungiFotoProdotto(m);
+        }
+        {
+            List<Map<String, Object>> maps = retrieveTagByName(doc, "foto", "fotoProduttori");
+            for (Map<String, Object> m : maps)
+                aggiungiFotoProduttore(m);
         }
     }
     
