@@ -10,7 +10,8 @@ public class ResetDatastoreController extends Controller {
     
     @Override
     public Navigation run() throws Exception {
-        world.initAll();
+        world.wipeAll();
+        world.initAllFromXml();
         
         return forward("resetDatastore.jsp");
     }
