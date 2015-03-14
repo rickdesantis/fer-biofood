@@ -1,0 +1,45 @@
+# Tabelle da implementare & gestire #
+
+Per i dati da gestire, mi sembrano utili queste "tabelle" (che in realtà sono dei modelli per Slim3, però il concetto è lo stesso):
+  * **Produttore**: _id_, nome, descrizione, email, indirizzo, idTipoProduttore, password
+  * **Prodotto**: _id_, nome, descrizione, infoNutrizionali, idProduttore, idTipoProdotto
+  * **TipoProduttore**: _id_, nome
+  * **TipoProdotto**: _id_, nome
+  * **Esigenza**: _id_, nome
+  * **Offerta**: _id_, idProdotto, fineOfferta
+  * **FotoProdotto**: _id_, idProdotto, contenuto
+  * **FotoProduttore**: _id_, idProduttore, contenuto
+  * **BuonoPerEsigenza**: _id_, idEsigenza, idProdotto
+
+# Dati sintetici iniziali #
+  * TipoProduttore:
+    * allevatore
+    * agricoltore
+    * ...
+  * TipoProdotto:
+    * ortaggi
+    * cereali e prima colazione
+    * cereali e legumi
+    * carne
+    * pesce
+    * latticini
+    * detersivi
+    * bevande
+    * farine
+    * condimenti
+    * sughi, pesto e passate
+    * marmellate e composte
+    * pasta e riso
+    * snack
+  * Esigenza:
+    * vegani
+    * vegetariani
+    * celiaci
+    * bisognosi di ferro
+    * donne in gravidanza
+  * Produttore:
+    * ...
+  * Prodotto:
+    * ...
+  * BuonoPerEsigenza:
+    * ...
